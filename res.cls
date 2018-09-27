@@ -1,38 +1,5 @@
-% RESUME DOCUMENT STYLE -- Released 23 Nov 1989
-%    for LaTeX version 2.09
-% Copyright (C) 1988,1989 by Michael DeCorte
-
 \typeout{Document Style `res' <26 Sep 2018>.}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% res.sty
-%
-% \documentstyle{res}
-%
-% Copyright (c) 1988 by Michael DeCorte
-% Permission to copy all or part of this work is granted, provided that the 
-% copies are not made or distributed for resale, and that the copyright notice 
-% and this notice are retained.
-%
-% THIS WORK IS PROVIDED ON AN "AS IS" BASIS.  THE AUTHOR PROVIDES NO WARRANTY 
-% WHATSOEVER, EITHER EXPRESS OR IMPLIED, REGARDING THE WORK, INCLUDING 
-% WARRANTIES WITH RESPECT TO ITS MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR 
-% PURPOSE.
-%
-% If you make any improvements, I'd like to hear about them.
-%
-% Michael DeCorte
-% P.O. Box 652
-% Potsdam NY 13676
-% mrd@sun.soe.clarkson.edu
-% mrd@clutx.bitnet
-%
-% Changes for LaTeX2e -- Venkat Krishnamurthy (Aug 7, 2001)
-%
-% Changes for general improvement -- Daniel Marks (Feb 28, 2015)
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % You can have multiple style options the legal options ones are:
 %
 %   centered:	the name and address are centered at the top of the	page 
@@ -818,5 +785,5 @@
 
 % Increase text height
 % \textheight=700pt
-\sectionskip=15pt
+% \sectionskip=8pt
 % \sectionwidth=20pt
