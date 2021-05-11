@@ -150,7 +150,7 @@
 \ProvidesClass{res}[2000/05/19 v1.4b Resume class]
 
 %\DeclareOption{11pt}{\renewcommand\@ptsize{1}}
-%\DeclareOption{12pt}{\renewcommand\@ptsize{2}}
+% \DeclareOption{12pt}{\renewcommand\@ptsize{2}}
 
 \PassOptionsToClass{11pt,12pt}{article}
 \LoadClassWithOptions{article}
@@ -770,7 +770,7 @@
 % \thispagestyle{plain}
 % \pagestyle{fancy}
 
-\input{cv_header.tex}
+\input{../sections/cv_header.tex}
 
 % \rfoot[]{\@name}
 % \lfoot[]{\Resume}
