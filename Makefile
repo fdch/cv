@@ -5,14 +5,15 @@ TMP=temp
 PDF=$(DATADIR)/$(TMP).pdf
 TEXDIR=tex
 OUT=output
+TITLE="Federico Cámara Halac"
+PDCFLAGS=-s --metadata title=$(TITLE) --css style/style.css
 
 local:
 	cd $(SRCDIR); ./get_cv.py && open ../$(PDF)
 
 all:
 	make update
-	make index
-	make readme
+	make release
 	open $(PDF)
 
 update:
@@ -24,11 +25,9 @@ parse:
 compact:
 	cd $(SRCDIR); ./get_cv.py --compact
 
-index:
-	cd $(DATADIR); pandoc -s --metadata title="CV" -i $(TMP).tex -f latex -t html -o ../$(OUT)/index.html
-
-readme:
-	cd $(DATADIR); pandoc -s -i $(TMP).tex -f latex -t gfm -o ../$(OUT)/README.md
+release:
+	cd $(DATADIR); pandoc $(PDCFLAGS) -i $(TMP).tex -f latex -t html -o ../index.html
+	pandoc -i index.html -f html -t gfm -o README.md
 
 project:
 	rm $(DATADIR)/project.zip
@@ -42,3 +41,8 @@ new:
 	cp $(PDF) $(OUT)/temp-new.pdf
 	cp $(DATADIR)/$(TMP).tex $(OUT)/temp-new.tex
 	cp $(DATADIR)/res.cls $(OUT)
+
+push:
+	git add . 
+	git commit 
+	git push

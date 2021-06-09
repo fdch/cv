@@ -1,15 +1,3 @@
----
-address:
-- |
-  +1 614 440 7529  
-  camarahalac.1@osu.edu  
-  https://fdch.github.io
-- |
-  349C Sullivant Hall,  
-  1813 North High Street,  
-  Columbus, OH 43210
----
-
 <div class="resume">
 
 # Education
@@ -244,7 +232,7 @@ Networked Performance Music. Sonification. Database Music.
 
 ## Live Video and Electronics
 
--   **Electroacoustic Improvisations..** Joan Bages i Rubi, Bernardo
+-   **Electroacoustic Improvisations.** Joan Bages i Rubi, Bernardo
     Barros, Kyle Motl, and Joan Marti Frasquier,. Midi controller and
     Laptop. NYU Waverly Labs r.220 - New York City, NY (USA). 19
     June 2017.
