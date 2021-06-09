@@ -263,9 +263,9 @@
 \def\newsectionwidth#1{%
 		     \sectionwidth=#1
 		     \textwidth=\resumewidth
-		     \advance\textwidth-\sectionwidth
+		     % \advance\textwidth-\sectionwidth
 		     \hsize=\textwidth
-		     \hoffset=\sectionwidth
+		     % \hoffset=\sectionwidth
 }
 
 
@@ -524,10 +524,10 @@
 %   \body
 %
 
-\def\employer#1{\def\@employer{\textbf{\print@employer{#1}}}}
+\def\employer#1{\def\@employer{\textit{\print@employer{#1}}}}
 \def\location#1{\def\@location{\print@location{#1}}}
 \def\dates#1{\def\@dates{\print@dates{#1}}}
-\def\title#1{\def\@title{\textit{\print@title{#1}}}}
+\def\title#1{\def\@title{\textbf{\print@title{#1}}}}
 
 \let\l@justify\raggedright
 \let\r@justify\raggedleft
@@ -742,11 +742,11 @@
 %    body
 % with everything in the left of its column
 
-\@secpenalty = -500
+\@secpenalty = 0
 \topmargin 0pt
 \headheight 0pt
 \headsep 0pt
-\textheight 9in
+\textheight 2in
 \parindent 0pt
 \topmargin 0in
 \oddsidemargin 0pt
@@ -762,29 +762,19 @@
 \parsep 2pt plus 2pt
 \itemsep \parsep}
 
-% \usepackage{courier}
+\usepackage{enumitem}
 % \usepackage{helvet}
-% \usepackage[utf8]{inputenc}
-% \usepackage{url}
-% \usepackage{fancyhdr}
-% \setlength{\headheight}{30pt}
 % \thispagestyle{plain}
-% \pagestyle{fancy}
 
-\input{cv_header.tex}
+% \usepackage{setspace}
+% \singlespacing
+% \SetSinglespace{0.5}
+% \setlength{\headheight}{30pt}
 
-% \rfoot[]{\@name}
-% \lfoot[]{\Resume}
+\usepackage{titlesec}
 
-\begin{format}
-\title{l}\location{r}\\
-\employer{l}\dates{r}\\
-\body
-\end{format}
+\titlespacing\section{0pt}{0pt}{0pt}
+\titlespacing\subsection{0pt}{0pt}{0pt}
 
-\let\section\@@section
-
-% Increase text height
-% \textheight=700pt
-% \sectionskip=8pt
-% \sectionwidth=20pt
+% \let\section\@@section
+% \let\subsection\@@subsection

@@ -1,176 +1,304 @@
 #!/usr/local/bin/python3
-
-import json
-import requests
+import json, pickle
+from pylatex import Document, Section,Subsection, Command, Itemize
 from datetime import datetime
-import pickle
-import argparse
-import pandas as pd
+from pylatex.base_classes import Environment
+from pylatex.utils import NoEscape
+from pathlib import Path
 
-datadir = "../.data/"
-sheet = datadir + ".sheet_id.pkl"
-sheetj = datadir + ".sheet_data.json"
-texfile = datadir + ".temp.tex"
+MAX_YEAR_LIMIT = 20 # more recent years (with compact flag)
+MAX_SHEETS = 8 # range of sheets to pull from (non inclusive)
+
+ENCODING='utf8'
+
+class Itemize(Environment):
+    escape = True
+    content_separator = "\n"
+
+class Position(Environment):
+    escape = True
+    content_separator = "\n"
+
+class Resume(Environment):
+    escape = True
+    content_separator = "\n"
+
+class Quote(Environment):
+    escape = True
+    content_separator = "\n"
+
+class FlushLeft(Environment):
+    escape = True
+    content_separator = "\n"
+
+class FlushRight(Environment):
+    escape = True
+    content_separator = "\n"
+
+def reformat(doc, fmt=None, body=True):
+
+    class Format(Environment):
+        escape = True
+        content_separator = ""
+    if fmt is None:
+        fmt = {
+                'dates':0,
+                'title':0,
+                'location':0,
+                'employer':0
+        }
+
+    with doc.create(Format()):
+        doc.append(NoEscape("\\\\\n"))
+        for i,j in fmt.items():
+            doc.append(Command(i,'r' if j else 'l'))
+            doc.append(NoEscape("\\\\\n"))
+        if body:
+            doc.append(Command("body"))
+        doc.append(NoEscape("\n"))
+
+def comment(doc, s=''):
+    doc.append(NoEscape("%" + "-"*78 + "\n"))
+    doc.append(NoEscape("% "+s+" \n"))
+    doc.append(NoEscape("%" + "-"*78 + "\n"))
 
 
-parser = argparse.ArgumentParser()
-
-parser.add_argument("-u", '--update',
-    help="Update local sheet data with google sheet data.", 
-    action="store_true")
-
-args = parser.parse_args()
-
-if args.update:
-
-    print("Updating local sheet...")
+def writeEntry(doc, item, e):
+    dates=e['dates']
+    title=e['title']
+    employer=e['employer']
+    description=e['description']
+    location=e['location']
+    year=e['year']
+    subheader=e['subheader']
     
-    with open(sheet, 'rb') as f:
-        sheet_id = pickle.load(f)
+    if title and title[-1] == ".":
+        title[:-2]
+    if employer and  employer[-1] == ".":
+        employer[:-2]
+    if description and description[-1] == ".":
+        description[:-2]
+    if location and location[-1] == ".":
+        location[:-2]
 
-    sheet_data = []
+    with doc.create(Itemize(options=[ 
+        'align=parleft',
+        'leftmargin=2.25cm',
+        'labelwidth=2cm' ]
+        )):
+        doc.append(NoEscape("\\item["+item+"]"))
 
-    for i in range(5):
-        try:
-            url  = "https://spreadsheets.google.com/feeds/list/" 
-            url += sheet_id + "/"
-            url += str(i+1)   + "/" 
-            url += "public/values?alt=json"
-            r = requests.get(url)
-            data = json.loads(r.text)
-            sheet_data.append(data)
-        except Exception as e:
-            print(e)
-
-    with open(sheetj, 'w') as f:
-        f.write(json.dumps(sheet_data, 
-            sort_keys=True,
-            indent=4,
-            separators=(',',':'))
-        )
-
-with open(sheetj, 'r') as f:
-    sheet_data = json.load(f)
-
-def fmt(s):
-    if "~" in s:
-        s = "\\url{" + s + "}"
-    return s
-
-def getkey(dic,key):
-    return dic["gsx$"+key]["$t"]
-
-def latex_tag(s, tag=None):
-    if tag is not None:
-        return "\\" + tag +"{"+ s + "}\n"
-    else:
-        return "\\" + s + "\n"
-
-def latex_wrap(s,tag):
-    ss = latex_tag(tag,'begin') + "\n"
-    ss += s + "\n"
-    ss += latex_tag(tag,'end')
-    return ss
-    
-
-def element(dic, key=None, tag=None):
-    if key is not None and isinstance(dic,dict):
-        if 'description' in key:
-            s = latex_wrap(getkey(dic,key),'position')
+        if 'ongoing' in dates:
+            doc.append(Command('textbf',title))
+            doc.append("(ongoing). ")
         else:
-            if tag is None:
-                tag = key
-            s = latex_tag(fmt(getkey(dic,key)),tag)
+            doc.append(Command('textbf',title+"."))
+        
+        if employer and subheader != employer:
+            doc.append(employer+". ")
+        
+        if description:
+            # remove my name from the description if i'm the only one there...
+            fd="Federico Camara Halac"
+            if fd != description and len(description) != len(fd):
+                doc.append(description+". ")
+        
+        if location:
+            doc.append(location+". ")
+        
+        if 'ongoing' not in dates and dates != year:
+            doc.append(dates+".")
+
+
+if __name__ == '__main__':
+    
+    import argparse
+
+    parser  = argparse.ArgumentParser()
+
+    parser.add_argument("-u", '--update',
+        help="Update local sheet data with google sheet data.", 
+        action="store_true")
+
+    parser.add_argument("-c", '--compact',
+        help="Make a compact version of the cv", 
+        action="store_true")
+
+    parser.add_argument("-p", '--parse',
+        help="Parse the local data without fetching it again.", 
+        action="store_true")
+
+    args = parser.parse_args()
+    
+    sheeti  = Path("../data/sheet_id.pkl")
+    sheetj  = Path("../data/sheet_data.json")
+    sheetp  = Path("../data/sheet_data_parsed.json")
+    sheett  = Path("../data/cv_tree.json")
+    texfile = Path("../data/temp")
+    datafile= Path("../data/data.json")
+
+    if args.compact:
+        # do not print the body (description) of each entry
+        body = False
     else:
-        s = latex_wrap(dic,'position')
-    return s + "\n"
+        body = True
 
-def make_input(file,title,source,path="../sections/"):
-    file.write(latex_tag(title, "section"))
-    if isinstance(source,str):
-        source = [source]
-    for i in source:
-        file.write(latex_tag(path+i+".tex", "input"))
+    if args.update:
 
-with open(texfile, 'w') as f:
+        with sheeti.open(mode='rb') as f:
+            sheet_id = pickle.load(f)        
+
+        import download
+        download.downloadSheet(sheet_id, sheetj)
+    
+    if args.update or args.parse:
+        
+        import parser
+        parser.parseSheet(sheetj,sheetp)
+
+
+    with sheetp.open(mode='r', encoding=ENCODING) as f:
+        sheet_data = json.load(f)
+    
+    with sheett.open(mode='r', encoding=ENCODING) as f:
+        cv_tree = json.load(f)
+
+    with datafile.open(mode='r', encoding=ENCODING) as f:
+        data = json.load(f)
+
+    doc = Document(
+        default_filepath = texfile.as_posix(),
+        documentclass    = 'res',
+        document_options = ['12pt', 'overlapped'],
+        fontenc          = "T1",
+        inputenc         = ENCODING,
+        font_size        = "normalsize",
+        lmodern          = True,
+        page_numbers     = False,
+        geometry_options = {"tmargin": "1.5cm", "lmargin": "2.5cm"},
+    )
+
     date = str(datetime.date(datetime.now()))
-    f.write("%" + "-"*78 + "\n%\n")
-    f.write("% Automatically generated by make \n")
-    f.write("%" + " on " + date + "\n%\n")
-    f.write("%" + "-"*78 + "\n")
-    f.write(latex_tag("../style/res.cls","documentclass[overlapped,12pt]"))
-    f.write(latex_tag('document','begin'))
-    f.write(latex_tag('resume','begin'))
-    make_input(f,"POST-DOCTORAL EXPERIENCE", "cv_work")
-    make_input(f,"EDUCATION", "cv_education")
-    make_input(f,"DISSERTATION", ["diss_header","diss_abstract"])
-    make_input(f,"RESEARCH", "cv_research")
-    f.write(latex_tag("pagebreak"))
-    make_input(f,"PUBLICATIONS", "cv_publications")
-    make_input(f,"OTHER SKILLS",'cv_skills')
+    comment(doc.preamble, "Automatically generated by make on " + date)
+    
+    print("Making Tex file")
 
-    for i in sheet_data:
-        f.write("%" + "="*78 + "\n")
-        title = i['feed']['title']['$t']
-        f.write("%"+title+"- last updated:" +i['feed']['updated']['$t']+"\n")
-        f.write("%" + "="*78 + "\n")
-        if 'teaching' in title:
-            f.write(latex_tag('TEACHING EXPERIENCE','section'))
-            for j in i['feed']['entry']:
-                f.write("%" + "-"*78 + "\n")
-                # f.write([k for k in j.keys() if 'gsx' in k])
-                f.write(latex_tag(f"{getkey(j,'type').title()} - {getkey(j,'class').title()}",'title'))
-                f.write(latex_tag(f"{getkey(j,'term')} {getkey(j,'year')}",'dates'))
-                f.write(element(j,'description'))
-                f.write(element(j,'institution','employer'))
-                f.write(element(j,'department','location'))
-                # f.write(element(j,'timestamp'))
+    doc.preamble.append(Command('name', data["personal"]["name"]))
+    doc.preamble.append(Command('address', NoEscape("\\\\".join([data["personal"]["phone"], data["personal"]["email"], data["personal"]["website"]]))))
+    doc.preamble.append(Command('address', NoEscape(",\\\\".join(data["personal"]["address"]))))
+    
+    doc.append(Command("raggedright"))
+    with doc.create(Resume()):
+        for section in cv_tree['sections']:
+            sheet=section['sheet']
+            with doc.create(Section(sheet_data[sheet]['section'])):
+                for v in section['order']:
+                    v = v.replace(" ","_")
+                    subheader=sheet_data[sheet]['subcategories'][v]["subsection"]
+                    doc.append(Command("subsection",subheader))
+                    # doc.append(NoEscape("\\noindent\\rule{\\textwidth}{0.4pt}"))
+                    doc.append(Command('fullline'))
+                    p_y=''
+                    p_m=''
+                    monthit=len(sheet_data[sheet]['subcategories'][v]['data'])
+                    p_title=''
+                    p_entry={}
+                    merge=0
+                    for i in sheet_data[sheet]['subcategories'][v]['data']:
 
-        elif 'awards' in title:
-            f.write(latex_tag('AWARDS AND RECOGNITIONS','section'))
-            for j in i['feed']['entry']:
-                f.write("%" + "-"*78 + "\n")
-                f.write(element(j,'title'))
-                f.write(element(j,'duration','dates'))
-                f.write(element(j,'description'))
-                f.write(element(j,'where','location'))
-                f.write(element(j,'type','employer'))
-                # f.write(element(j,'timestamp'))
-                # f.write(getkey(j,'who'))
-                # f.write(getkey(j,'url'))
+                        c_y = i['year'].replace(" ","")
+                        c_m = i['month'].replace(" ","")
+                        # this accounts for year/month repetition
+                        if p_y != c_y and p_m != c_m:
+                            # year and month changed, display full date
+                            dateit=i['year']
+                            if monthit > 1:
+                                dateit+=" | " +i['month'][:3]
 
-        elif 'collabs' in title:
-            f.write(latex_tag('SELECTED COLLABORATIONS','section'))
-            for j in i['feed']['entry']:
-                f.write("%" + "-"*78 + "\n")
-                f.write(element(j,'category','title'))
-                f.write(element(j,'year','dates'))
-                f.write(element(j,'description'))
-                f.write(element(j,'where','location'))
-                # f.write(element(j,'timestamp'))
+                        elif p_y == c_y and p_m != c_m:
+                            # only month changed, display month only
+                            dateit=i['month']
+                        elif p_y != c_y and p_m == c_m:
+                            # only year changed, display year only
+                            dateit=i['year']
+                        else:
+                            # no change, no date display
+                            dateit=''
 
-        elif 'perform' in title:
-            f.write(latex_tag('SELECTED PERFORMANCES','section'))
-            for j in i['feed']['entry']:
-                f.write("%" + "-"*78 + "\n")
-                f.write(element(j,'what','title'))
-                f.write(element(j,'when', 'dates'))
-                f.write(element(f"{getkey(j,'instrument')} with {getkey(j,'with').title()} at {getkey(j,'where').title()}"))
-                f.write(element(j,'how','employer'))
-                f.write(element(j,'where','location'))
-                # f.write(element(j,'timestamp'))
+                        p_y=c_y
+                        p_m=c_m
 
-        elif 'admin' in title:
-            f.write(latex_tag('ADMINISTRATIVE EXPERIENCE','section'))
-            for j in i['feed']['entry']:
-                f.write("%" + "-"*78 + "\n")
-                f.write(element(j,'title'))
-                f.write(element(j,'dates'))
-                f.write(element(j,'description'))
-                f.write(element(j,'employer'))
-                f.write(element(j,'location'))
-                # f.write(element(j,'timestamp'))
-        else:
-            print("---WARNING:" + title + " ---> Skipping...")
-    f.write(latex_tag('resume','end'))
-    f.write(latex_tag('document','end'))
+                        # the current entry object
+                        c_entry = {
+                            "dates":i['dates'],
+                            "title":i['title'],
+                            "employer":i['employer'],
+                            "description":i['description'],
+                            "location":i['location'],
+                            "subheader":subheader,
+                            "year":i['year']
+                        }
+
+                        writeEntry(doc, dateit, c_entry)
+                        
+                        # this accounts for title repetition
+                        # c_title = i['title'].replace(" ","")
+                        
+                        # first case (p_entry is empty)
+                        # if not p_entry:
+                        #     p_entry = c_entry
+                        #     writeEntry(doc, dateit, c_entry)
+                        # else:
+                        #     # do titles differ ?
+                        #     if p_title != c_title:
+
+                        #         if merge:
+                        #             writeEntry(doc, dateit, p_entry)
+                        #             merge=0
+                        #         else:
+                        #             writeEntry(doc, dateit, c_entry)
+                        #             p_entry = c_entry
+
+                        #         # then update title
+                        #         p_title = c_title
+                        #     else:
+                        #         # titles are the same
+                        #         # we found two similar entries,
+                        #         # merge them
+                        #         for k,v in p_entry.items():
+                        #             if p_entry[k] != c_entry[k]:
+                        #                 p_entry[k] += ' and ' + c_entry[k]
+                        #         merge=1
+                        #         continue
+                if "work" in sheet:
+                    with doc.create(Section("Research Interests")):
+                        for i in data["research"]:
+                            doc.append(i+". ")
+                    doc.append(Command("pagebreak"))
+                # end subsection loop
+            # end subsections
+        # end sections
+        with doc.create(Section("Other Skills")):
+            doc.append(Command('fullline'))
+            with doc.create(Itemize(options=[ 
+                    'align=parleft',
+                    'leftmargin=2.25cm',
+                    'labelwidth=2cm' ]
+                    )):
+                doc.append(NoEscape("\\item[Languages]"))
+                for i in data["languages"]:
+                    doc.append(Command("textbf", i['item']))
+                    doc.append(" ("+i['description']+") ")
+                doc.append(NoEscape("\\item[Code]"))
+                for i in data["code"]:
+                    doc.append(Command("textbf", i['item']))
+                    doc.append(" ("+i['description']+") ")
+                doc.append(NoEscape("\\item[Software]"))
+                for i in data["software"]:
+                    doc.append(Command("textbf", i+"."))
+    # end resume
+
+    print("Compiling PDF file")
+    doc.generate_pdf(clean_tex=True)
+
+    doc.generate_tex()

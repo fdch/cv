@@ -1,0 +1,347 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.13)  8 JUN 2021 22:52
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**temp-new.tex
+(./temp-new.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> (./res.cls
+Document Style `res' <26 Sep 2018>.
+Document Class: res 2000/05/19 v1.4b Resume class
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+No auxiliary output files.
+
+\tabular@text=\toks15
+\tabular@head=\toks16
+\tabular@tail=\toks17
+\@ta=\toks18
+\undefined@token=\toks19
+\sectionwidth=\dimen139
+\sectionskip=\skip49
+\resumewidth=\dimen140
+\@columnwidth=\dimen141
+\c@numberofcolumns=\count187
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks20
+\labelindent=\skip50
+\enit@outerparindent=\dimen142
+\enit@toks=\toks21
+\enit@inbox=\box47
+\enit@count@id=\count188
+\enitdp@description=\count189
+)
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box48
+\beforetitleunit=\skip51
+\aftertitleunit=\skip52
+\ttl@plus=\dimen143
+\ttl@minus=\dimen144
+\ttl@toksa=\toks22
+\titlewidth=\dimen145
+\titlewidthlast=\dimen146
+\titlewidthfirst=\dimen147
+))
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks23
+\inpenc@posthook=\toks24
+)
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+(/usr/local/texlive/2021basic/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/local/texlive/2021basic/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count190
+\Gm@cntv=\count191
+\c@Gm@tempcnt=\count192
+\Gm@bindingoffset=\dimen148
+\Gm@wd@mp=\dimen149
+\Gm@odd@mp=\dimen150
+\Gm@even@mp=\dimen151
+\Gm@layoutwidth=\dimen152
+\Gm@layoutheight=\dimen153
+\Gm@layouthoffset=\dimen154
+\Gm@layoutvoffset=\dimen155
+\Gm@dimlist=\toks26
+)
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 19
+.
+
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/l3backend/l3backend-pdftex.d
+ef
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count193
+\l__pdf_internal_box=\box49
+)
+
+LaTeX Warning: Unused global option(s):
+    [12pt].
+
+No file temp-new.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(71.13188pt, 451.01793pt, 92.14519pt)
+* v-part:(T,H,B)=(42.67912pt, 656.8935pt, 95.39737pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=451.01793pt
+* \textheight=656.8935pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-29.59087pt
+* \headheight=0.0pt
+* \headsep=0.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=0.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+3.
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+3.
+
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+23.
+
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+23.
+
+(/usr/local/texlive/2021basic/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 23.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 23.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 23.
+ [1
+
+{/usr/local/texlive/2021basic/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+
+
+
+
+
+
+] [2
+
+
+
+
+
+
+
+] [3
+
+
+
+
+
+
+
+
+
+
+]
+Underfull \hbox (badness 10000) detected at line 267
+|[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 274
+|[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 312
+|[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 319
+|[]
+ []
+
+[4
+
+
+
+]
+Underfull \hbox (badness 10000) detected at line 423
+|[]
+ []
+
+[5
+
+]
+Underfull \hbox (badness 10000) detected at line 495
+|[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 523
+|[]
+ []
+
+[6
+
+
+] [7
+
+
+
+
+
+
+
+
+
+]
+Underfull \hbox (badness 10000) detected at line 801
+|[]
+ []
+
+[8
+
+
+
+
+
+
+] [9
+
+
+] ) 
+Here is how much of TeX's memory you used:
+ 2009 strings out of 480445
+ 30362 string characters out of 5892391
+ 330055 words of memory out of 5000000
+ 19301 multiletter control sequences out of 15000+600000
+ 436519 words of font info for 46 fonts, out of 8000000 for 9000
+ 319 hyphenation exceptions out of 8191
+ 68i,8n,74p,311b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021basic/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/
+local/texlive/2021basic/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local
+/texlive/2021basic/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texli
+ve/2021basic/texmf-dist/fonts/type1/public/lm/lmr12.pfb>
+Output written on temp-new.pdf (9 pages, 103601 bytes).
+PDF statistics:
+ 47 PDF objects out of 1000 (max. 8388607)
+ 32 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

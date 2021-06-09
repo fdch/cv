@@ -1,0 +1,516 @@
+[
+    {
+        "educationFinal": {
+            "PhD": [
+                {
+                    "year": "2019",
+                    "timestamp": "5/13/2021 21:13:26",
+                    "dates": "September  2013 - June  2019",
+                    "title": "Music Composition and Theory",
+                    "employer": "Graduate School of Arts and Sciences (New York University)",
+                    "location": "New York, NY (USA)",
+                    "description": "Dissertation title: ``Database Music: A History, Technology, and Aesthetics of the Database in Music Composition''. Advisor: Jaime Oliver La Rosa (NYU GSAS). Readers: Elizabeth Hoffman (NYU GSAS), Martin Daughtry (NYU GSAS), William Brent (American University), and Robert Rowe (NYU Steinhardt) ",
+                    "narrative": "This dissertation outlines a framework to discuss the aesthetic agency of the database in music composition. I place my dissertation in relation to existing scholarship, artists, and developers working in the fields of music composition, computer science, affect, and ontology, with emphasis on the ubiquity of databases and on the need to reflect on their practice, particularly in relation to databasing and music composition. There is a database everywhere, anytime, always already affecting our lives; it is an agent in our aesthetic and political lives just as much as we are agents in its composition and performance. Database music lives in between computers and sound. My argument is that in order to conceptualize the agency of the database in music composition, we need to trace the history of the practice, in both its technical and its artistic use, so as to find nodes of action that have an effect on the resulting aesthetics.",
+                    "url": ""
+                }
+            ]
+        }
+    },
+    {
+        "workFinal": {
+            "year": "2021",
+            "timestamp": "5/13/2021 20:45:38",
+            "dates": "2019-2021",
+            "title": "Postdoctoral Scholar in Immersive Audio",
+            "employer": "Global Arts and Humanities Discovery Theme (The Ohio State University)",
+            "location": "Columbus, OH (USA)",
+            "description": "",
+            "narrative": "C\u00e1mara Halac is a Post-Doctoral Researcher in Immersive Audio in the School of Music as part of the Global Arts and Humanities Discovery Theme initiative at Ohio State University. Since his work involves exploring sound in media, working at the Advanced Computing Center for the Arts and Design allows him the best opportunities to interface with the College of the Arts and Sciences.",
+            "url": ""
+        }
+    },
+    {
+        "papersFinal": {
+            "ConferenceProceedings": [
+                {
+                    "year": "2021",
+                    "timestamp": "5/12/2021 18:00:46",
+                    "dates": "Sep 28 2021",
+                    "title": "Visual Cues as an Aid in the Auditory Stream Segregation of Music",
+                    "employer": "Samantha Burgess, Federico Camara Halac, and Daniel Shanahan",
+                    "location": "International Conference on Music Perception and Cognition - European Society for the Cognitive Sciences of Music",
+                    "description": "",
+                    "narrative": "",
+                    "url": "http://doi.org/10.5454/JPSv1i220161014"
+                },
+                {
+                    "year": "2021",
+                    "timestamp": "5/12/2021 17:59:37",
+                    "dates": "Aug 09 2021",
+                    "title": "`The Woods:' A Mixed Reality Two-Player Cooperative Game",
+                    "employer": "Scott Swearingen, Kyoung Swearingen, Federico Camara Halac, Sruthi Ammannagari, and Matt Hall",
+                    "location": "SIGGRAPH",
+                    "description": "",
+                    "narrative": "While loneliness in our real lives is increasingly recognized as having dire physical, mental and emotional consequences, cooperative games have been shown to build empathy and provide positive social impact. In this paper, we present \u201cThe Woods\u201d, a local cooperative mixed reality game that provides players with face-to-face interactions in pursuit of a shared goal using augmented reality and 4-channel audio spatialization panning. This paper discusses the narrative, mechanical, and sonic components of the game, as well as its development process and the player experience. The goal of our team is to develop a narrative driven AR game that promotes collaborative problem-solving and engages players in an emergent physical and digital experience.",
+                    "url": "http://doi.org/10.5454/JPSv1i220161014"
+                },
+                {
+                    "year": "2021",
+                    "timestamp": "5/14/2021 16:01:36",
+                    "dates": "Jul 25 2021",
+                    "title": "DreamSound: Deep Activation Layer Sonification",
+                    "employer": "Federico Camara Halac and Matias Delgadino",
+                    "location": "International Computer Music Conference",
+                    "description": "",
+                    "narrative": "Deep Learning in raw audio-based musical contexts is yet a largely unexplored field. In visual arts, the Deep Dream collective project utilizes deep Convolutional Neural Network classifiers to generate self-refferential surreal images. In this paper, we present an adaptation of the Deep Dream project into an audio-based musical context. We created a rapid prototype by sonifying the activation layers of a pre-trained classifier, YAMNet. To deal with noisy outputs we implemented FFT filters supported on the frequencies of the original or a target audio.",
+                    "url": "http://doi.org/10.5454/JPSv1i220161014"
+                },
+                {
+                    "year": "2021",
+                    "timestamp": "5/12/2021 18:02:47",
+                    "dates": "Feb 12 2021",
+                    "title": "Comparing Musical Performances of the `Goldberg Variations' Using Supervised Machine Learning Techniques",
+                    "employer": "Arturo Barrios, Leo A. Glowacki, Lindsay Warrenburg, and Federico Camara Halac",
+                    "location": "Future Directions of Music Cognition (Accepted but not presented)",
+                    "description": "",
+                    "narrative": "Distinguishing interpretational styles of a musical work is an important step in the field of musical performance analysis. This study investigates similarities and differences across performances of the Aria and Aria da Capo in J.S. Bach\u2019s Goldberg Variations. Supervised machine learning techniques\u2014including support vector machine with L1 regularization, na\u00efve Bayes, and gradient boosting regression\u2014were used to assess classification accuracy of the performer of the Aria da Capo from the Aria training set, as well as to discern relative feature importance. For each recording, MIDI-audio alignment was conducted in order to estimate onset and offset times for each note in the audio files, allowing the musical score to be matched with each individual performances. Using statements by performers and theorists as a guideline, the musical score was analyzed in order to select specific performance features that were likely to contribute to the overall musical character and emotional impact of the twin arias (Booth, 2014; Denk 2012; Huizenga, 2012; Schenkman, 1975). Therefore, in addition to general performance features (e.g., overall tempo, pulse clarity, spectral flatness), music theory-driven interpretational features were also assessed (e.g., ornamentation, articulation, and rubato in areas of structural importance in the musical score; emphasis in ground bass \u201cmotifs\u201d across the four quatrains). Along with studies of perceived and experienced emotion in response to the Goldberg Variations (e.g., Fabian & Schubert, 2003; Gotlieb & Konec\u030cni, 1985), this project contributes to discussions regarding how musical performances can lead to moments of power in Bach\u2019s music.",
+                    "url": "http://doi.org/10.5454/JPSv1i220161014"
+                },
+                {
+                    "year": "2017",
+                    "timestamp": "7/5/2018 14:54:57",
+                    "dates": "Oct 11 2017",
+                    "title": "A Spectral Experience: Self Convolution and Face Tracking",
+                    "employer": "Federico Camara Halac and Matias Delgadino",
+                    "location": "International Computer Music Conference",
+                    "description": "",
+                    "narrative": "\u201cHearing The Self: A Spectral Experience\u201d (aka HALLY) is an interactive, immersive, multimedia, and robotic installation, simulating the process by which the human brain per- ceives the world. This paper explores the role of both sound and image in the definition of the self this installation brings forth. We briefly explore previous approaches to image soni- fication, and propose that through video-based convolution new conceptualizations of the self can arise. Further, this expression of the self is neither centered on the human par- ticipant nor on the socially constructed notions of the self, but on nonhuman aspects such as the reflection and capture of light, or the technological array of the installation as such. The participant\u2019s exploration within this spectrality results in an uncanny and playful experience.",
+                    "url": "https://raw.githubusercontent.com/fdch/specexp/master/paper/hally-paper.pdf"
+                }
+            ],
+            "ConferencePanel": [
+                {
+                    "year": "2020",
+                    "timestamp": "6/20/2020 14:09:32",
+                    "dates": "Mar 05 2020",
+                    "title": "[clone fd_dacout]: real-time massively multichannel spatialization in Pure Data",
+                    "employer": "Federico Camara Halac",
+                    "location": "JORNADAS DE INFORM\u00c1TICA Y ELECTR\u00d3NICA MUSICAL - ESPACIOS SONOROS",
+                    "description": "",
+                    "narrative": "This paper describes and discusses several approaches to working with massively multichannel music live using pure data. traditionally, most computer music works have had a tendency towards fixed media due to its stability and robustness when it comes to performance. Likewise, the spatialization paradigm that has governed most electronic music continues to be stereo, with the use of diffusion or ambisonics as last resort spatialization techniques. Emphasizing the importance of space, this paper describes the design of a real-time computer music piece called Lorenz Variations, written directly for high density loudspeaker arrays (HDLAs) of variable lengths. In using point-source location techniques and vector-based amplitude panning (VBAP) as composing tools instead of spatialization tools, I argue that space is not just a musical parameter but a compositional source that expands our listening experience into yet unknown dimensions, and it is our duty to explore the many aesthetic potentials it advances.. Lecture given at a conference called \"Espacios Sonoros 2020\", which is the 5th International Congress \"Sound Spaces\", 23rd Conference on Computer and Electronic Music - JIEM 2020. ",
+                    "url": "https://9264f52d-0f0c-4fab-a300-b9e7da1d30e1.filesusr.com/ugd/a866b2_370af5dc20854bc5a17191b6d01d7a28.pdf"
+                }
+            ],
+            "ConferencePoster": [
+                {
+                    "year": "2020",
+                    "timestamp": "6/20/2020 14:12:16",
+                    "dates": "Jan 24 2020",
+                    "title": "PathoSonic: Performing Sound In Virtual Reality Feature Space",
+                    "employer": "Federico Camara Halac and Shadrick Addy",
+                    "location": "New Interfaces for Musical Expression",
+                    "description": "",
+                    "narrative": "PathoSonic is a Virtual Reality (VR) experience that enables a participant to visualize and perform a sound file based on timbre feature descriptors displayed in space. The name comes from the different paths the participant can create through their sonic explorations. The goal of this research is to leverage affordances of virtual reality technology to visualize sound through different levels of performance-based interactivity that immerses the participant's body in a spatial virtual environment. Through implementation of a multi-sensory experience, including visual aesthetics, sound, and haptic feedback, we explore inclusive approaches to sound visualization, making it more accessible to a wider audience including those with hearing, and mobility impairments.",
+                    "url": "https://www.nime.org/proceedings/2020/nime2020_paper99.pdf"
+                }
+            ],
+            "PhDDissertation": [
+                {
+                    "year": "2019",
+                    "timestamp": "6/12/2019 12:18:57",
+                    "dates": "May 06 2019",
+                    "title": "Database Music: A History, Technology, and Aesthetics of the Database in Music Composition",
+                    "employer": "Federico Camara Halac",
+                    "location": "New York University",
+                    "description": "",
+                    "narrative": "The aim of this dissertation is to outline a framework to discuss the aesthetic agency of the database in music composition. I place my dissertation in relation to existing scholarship, artists, and developers working in the fields of music composition, computer science, affect, and ontology, with emphasis on the ubiquity of databases and on the need to reflect on their practice, particularly in relation to databasing and music composition. There is a database everywhere, anytime, always already affecting our lives; it is an agent in our aesthetic and political lives just as much as we are agents in its composition and performance. Database music lives in between computers and sound. My argument is that in order to conceptualize the agency of the database in music composition, we need to trace the history of the practice, in both its technical and its artistic use, so as to find nodes of action that have an effect on the resulting aesthetics. Therefore, this dissertation is composed of two main sections. In the first part, I trace a history of database practices from three points of view. The first is from new media theory, emphasizing the intersection between the database and the body. The second is from the history of the database in computer science, giving a panoramic view of the tools and concepts behind database systems, models, structures. The third is from their use in sound practices, describing different approaches to databasing from the fields of music information retrieval, sonification, and computer music. In the second part, I discuss the agency of the database under the broader concepts of sound, self, and community. These three axes are addressed in four sections, each with a different perspective. First I focus on listening and present the database as a resonant subject in a networked relation and community with the human. Second, I focus on memory, comparing human memory and writing with digital information storing, thus relating databasing and composition with memory, archives, and their spectrality. Third, I analyze the performativity of databasing, understanding the database as gendered, in its temporality, repetition, and in its contingent appearance as style, skin, and timbre. In the last section, I revise the notion of music work, reflecting on the consequences of the anarchic and the inoperative in the community of database music. As an appendix, I present an open-source library for making and performing a multimodal database that combines computer vision and timbre analysis algorithms to generate a database of image and audio descriptors suitable for automated navigation, querying, and live audio-visual performance.",
+                    "url": "https://fdch.github.io/database_music"
+                }
+            ],
+            "InvitedTalk": [
+                {
+                    "year": "2018",
+                    "timestamp": "7/5/2018 15:00:06",
+                    "dates": "Jun 11 2018",
+                    "title": "Composing Database: Opening A Space For The Concept Of An Anarchic Unwork Of Art.",
+                    "employer": "Federico Camara Halac",
+                    "location": "Delian Academy for New Music",
+                    "description": "",
+                    "narrative": "The practice of composition takes place from the most distant memory of sound to the intimacy of perceivable waves. For music to emerge from these waves, two negative processes need to take place, relating to consciousness, memory, and difference. These constitute the possibility condition of what I call the unveiling, staging, and unworking of the music object. From this rethinking of the composition practice, how does identity emerge from this precondition of difference? This is how the database enters into this framing of the practice of composition. Drawing from Derrida\u2019s conceptualization of the archive, I find the \u2018archontic\u2019 principle embedded within the structural quality of the database, and emerging through its performance. The computer is a multitude of databases constantly projecting their authority, their archontic power onto their users. Thus, in the same way the written word becomes the rule, just as the structured data prescribes its command, the severed object of music emerges as style, order, or identity. The question is, however, how can we conceive the aesthetic experience without this authoritative character; without this inherent imposition of order and identity? The space is opened, thus, for the concept of an anarchic unwork of art.",
+                    "url": "https://raw.githubusercontent.com/fdch/fdch.github.io/master/writings/waves.pdf"
+                }
+            ],
+            "Magazine": [
+                {
+                    "year": "2017",
+                    "timestamp": "7/5/2018 14:38:22",
+                    "dates": "Aug 10 2017",
+                    "title": "`For Young Years:' A Response To Elsa Justel's Marelle",
+                    "employer": "Federico Camara Halac",
+                    "location": "Open Space Magazine - Issue 21 ",
+                    "description": "",
+                    "narrative": "A black box room packed with a rather large audience surrounded by 16 Genelec speakers set as two rings of 8, with an elevation of about 1.5 meters. I arrived just in time for the concert and there were barely any seats left. I sat at the back with my head right behind speaker no. 5 \u2013a quite \u2018bad\u2019 location to listen to spatialized music inside a dome. I had the old fear one might encounter in an electroacoustic concert if one is not sitting around the \u2018sweet spot\u2019.1 Despite my fears \u2013and this is why I am writing this\u2013, Dr. Justel started playing Marelle2 and I could listen to her music inside the entire space in front of me. How did she achieve a complete multidimensional image that can be grasped from a point other than the center of the listening space? To what extent is this composition inherent to a particular spatial distribution? How can I go about showing this? This text is my response to her use of space.",
+                    "url": "http://the-open-space.org/issue-21/"
+                }
+            ]
+        }
+    },
+    {
+        "teachingFinal": {
+            "year": "2015",
+            "timestamp": "7/6/2018 4:34:08",
+            "dates": "(Spring 2015)",
+            "title": "New York University",
+            "employer": "Faculty of Arts and Science",
+            "location": "Teaching Assistant",
+            "description": "Harmony and Counterpoint II",
+            "narrative": "This course situated the practice of harmony and counterpoint in a historical context and examined the limits of tonality through a detailed study of chromatic harmony. I was in charge of recitation lessons and graded homework and practical excercises. ",
+            "url": ""
+        }
+    },
+    {
+        "awardsFinal": {
+            "Fellowship": [
+                {
+                    "year": "2018",
+                    "timestamp": "7/6/2018 3:58:26",
+                    "dates": "2018",
+                    "title": "Dean's Dissertation",
+                    "employer": "Graduate School of Arts and Sciences (New York University)",
+                    "location": "Berlin (Germany)",
+                    "description": "",
+                    "narrative": "NYU offered me a year-long stipend to write my dissertation in Berlin.",
+                    "url": "https://gsas.nyu.edu/content/nyu-as/gsas/financial-support/fellowships/gsas-dissertation-fellowships.html"
+                },
+                {
+                    "year": "2018",
+                    "timestamp": "7/6/2018 4:01:35",
+                    "dates": "2018",
+                    "title": "Graduate Research Initiative",
+                    "employer": "Provost (New York University)",
+                    "location": "Florence (Italy)",
+                    "description": "",
+                    "narrative": "The GRI Research Institute located in Florence offered me a three-month, fully funded residency at the beautiful Villa La Pietra to carry out research for my dissertation.",
+                    "url": "https://www.nyu.edu/research/provosts-global-research-initiatives/research-centers-faculty-graduate-students.html"
+                },
+                {
+                    "year": "2017",
+                    "timestamp": "7/6/2018 4:07:49",
+                    "dates": "2017",
+                    "title": "Graduate Research Initiative",
+                    "employer": "Provost (New York University)",
+                    "location": "Paris (France)",
+                    "description": "",
+                    "narrative": "The GRI Research Institute located in Paris offered me a three-month, fully funded residency at NYU Paris to carry out research for my dissertation.",
+                    "url": "https://www.nyu.edu/research/provosts-global-research-initiatives/research-centers-faculty-graduate-students.html"
+                }
+            ],
+            "ConferenceFund": [
+                {
+                    "year": "2017",
+                    "timestamp": "7/6/2018 4:03:58",
+                    "dates": "2017",
+                    "title": "Student Senators Council",
+                    "employer": "Graduate School of Arts and Sciences (New York University)",
+                    "location": "Shanghai (China)",
+                    "description": "",
+                    "narrative": "The Student Senators Council (SSC), with the generous assistance of the Senior Vice-Provost for Research, offered me funds to support my travel to Shanghai to present the installation \"Hearing The Self\" at ICMC 2017",
+                    "url": "https://www.nyu.edu/about/leadership-university-administration/university-senate/membership/councils/student-senators-council/conference-funding.html"
+                }
+            ],
+            "Mention": [
+                {
+                    "year": "2015",
+                    "timestamp": "7/6/2018 4:23:14",
+                    "dates": "2015",
+                    "title": "Selected Works",
+                    "employer": "Fundaci\u00f3n Destellos (Fundaci\u00f3n Destellos)",
+                    "location": "Buenos Aires (Argentina)",
+                    "description": "",
+                    "narrative": "Fundaci\u00f3n Destellos selected \"Ciudad Invertida\"  with a special mention",
+                    "url": "https://soundcloud.com/ffddcchh/ciudad"
+                }
+            ]
+        }
+    },
+    {
+        "colabsFinal": {
+            "NetworkPerformanceMusic": [
+                {
+                    "year": "2021",
+                    "timestamp": "5/14/2021 21:22:00",
+                    "dates": "2021 (ongoing)",
+                    "title": "1002: A Networked Music Performance with CollidePd",
+                    "employer": "International Computer Music Conference",
+                    "location": "C\u00f3rdoba (Argentina)",
+                    "description": "Federico Ragessi",
+                    "narrative": "Lockdowns and travel restrictions have not only affected our own music classes and artistic research, but have also profoundly changed music performance worldwide. In other words, since musicians cannot meet in the same room to play music with each other, they have learned to move their musical performance to the network.  We argue that this translation can be thought of as a new opportunity to rethink music and music performance research, considering the network as a new performative space. As a case study, we present a \"1002\", a collaborative networked performance created using a custom software called \"CollidePd\". \"1002\" is an invitation to anonymous collaboration in real time with remote performers, without any required musical training. The sonic research of this performance is based on the sonification of the musical gesture mediated by the mobile device, emphasizing the participatory movement of the performers. ",
+                    "url": "http://collidepd.herokuapp.com/"
+                }
+            ],
+            "Installation": [
+                {
+                    "year": "2019",
+                    "timestamp": "5/13/2021 0:24:23",
+                    "dates": "2019 (ongoing)",
+                    "title": "The Woods",
+                    "employer": "Advanced Computing Center for the Arts and Design",
+                    "location": "Columbus, OH (USA)",
+                    "description": "Kyoung Swearingen, Scott Swearingen, Marc Ainger, Sruthi Ammanngari, and Matt Hall",
+                    "narrative": "`The Woods\u2019 is a mixed-reality multiplayer cooperative game that addresses the perils of social isolation by promoting connections between people and actively engaging them through play. Using Augmented Reality (AR) and 4-channel audio spatialization panning, players choreograph their movement in real-world space, while interacting with birds, clouds and other objects in virtual space. In pursuit of a shared goal, players experience an immersive sonic narrative of rumbling storm clouds and disconnected voices that culminate in stories of hope and reconciliation. `The Woods\u2019 provides positive social impact by illuminating our connections to one another and inspiring us to respond through collaboration.",
+                    "url": "http://wizaga.com/thewoods.html"
+                },
+                {
+                    "year": "2017",
+                    "timestamp": "7/6/2018 3:42:19",
+                    "dates": "2017",
+                    "title": "Hearing the Self: A Spectral Experience",
+                    "employer": "Xuhui Art Muesum",
+                    "location": "Shanghai (China)",
+                    "description": "Matias Delgadino and Lucia Simonelli",
+                    "narrative": "Together with Mathematicians Dr. Mat\u00edas Delgadino and Dr. Luc\u00eda Simonelli we have developed an installation titled ``Hearing the Self: A Spectral Experience'' to be displayed at the International Computer Music Conference 2017",
+                    "url": "https://vimeo.com/241401699"
+                }
+            ]
+        }
+    },
+    {
+        "performFinal": {
+            "LiveElectronics": [
+                {
+                    "year": "2021",
+                    "timestamp": "5/13/2021 0:33:33",
+                    "dates": "23 April 2021",
+                    "title": "SEAMUS (TWELVE)",
+                    "employer": "Sonic Arts Ensemble at OSU",
+                    "location": "CCRMA - Stanford, CA (USA)",
+                    "description": "Thornblower",
+                    "narrative": "The Sonic Arts Ensemble at OSU will be featured as part of the CCRMA (Stanford University)/Society for Electroacoustic Music in the United States concert series TWELVE on Friday, April 23 at 2:05 PM EDT. These concerts will feature networked live telematic performances connecting Sonic Arts members and Friends in the US, Argentina, and Austria (including Atelier Avant in Austria). Funding for these performances is provided by Livable Futures. Live stream URL/link: https://ccrma.stanford.edu/live/twelve",
+                    "url": "https://accad.osu.edu/news/sonic-arts-ensemble-performance-earth-day-art-model"
+                },
+                {
+                    "year": "2021",
+                    "timestamp": "5/13/2021 0:36:00",
+                    "dates": "22 April 2021",
+                    "title": "Earth Day Art Model 2021",
+                    "employer": "The Sonic Arts Ensemble at OSU",
+                    "location": "EDAM Festival - Indianapolis, IA (USA)",
+                    "description": "Thornblower",
+                    "narrative": "The Sonic Arts Ensemble (directed by Marc Ainger, Ann Stimson, and Federico Camara Halac) will be featured as part of Earth Day Art Model 2021. The festival runs for 24 hours, but the Sonic Arts Ensemble will play for 20 minutes, starting at 4:30 PM EDT on Wednesday, April 21. These concerts will feature networked live telematic performances connecting Sonic Arts members and Friends in the US, Argentina, and Austria (including Atelier Avant in Austria). Funding for these performances is provided by Livable Futures. https://accad.osu.edu/news/sonic-arts-ensemble-performance-earth-day-art-model",
+                    "url": "https://earthdayartmodel.org"
+                },
+                {
+                    "year": "2021",
+                    "timestamp": "5/13/2021 0:38:32",
+                    "dates": "06 April 2021",
+                    "title": "Sonic Arts Ensemble Live-Stream Performance",
+                    "employer": "The Sonic Arts Ensemble at OSU",
+                    "location": "Netty McNetface - Columbus, OH (USA)",
+                    "description": "Thornblower",
+                    "narrative": "The Sonic Arts Ensemble welcomes the Spring season in a live-streamed networked concert with performers in the United States, Austria, and Argentina. The event takes place on Sunday, April 11th at 3pm EDT. Performers include: Marc Ainger, Ann Stimson, Federico Camara Halac, Se-Lien Chuang, Andreas Weixler, Scott Deal, Berenice Llorens, Jacob Kopcienski, Joe Sferra, Jim Croson, Sammy Gardner, Norah Zuniga Shaw, and Oded Huberman. This performance is a joint production with ACCAD, Atelier Avant Austria, and the Donald Tavel Arts and Technology Research Center, with funding provided by Livable Futures. Founded by Marc Ainger and Ann Stimson, the Sonic Arts Ensemble is a collaborative group of artists that comes together in different configurations over time. The artists are seeking collectively and individually to extend traditional instruments and modes of performance into new, imaginative realms of action and interaction. Relationships between the real and the imagined are re-imagined through sound.",
+                    "url": "https://accad.osu.edu/news/sonic-arts-ensemble-live-stream-performance"
+                },
+                {
+                    "year": "2020",
+                    "timestamp": "5/13/2021 0:39:59",
+                    "dates": "20 October 2020",
+                    "title": "Into The Multiverse",
+                    "employer": "The Sonic Arts Ensemble at OSU",
+                    "location": "The Wexner Center for the Arts - Columbus, OH (USA)",
+                    "description": "Thornblower",
+                    "narrative": "Join us in the multiverse for an evening of sonic emersion and visual poetics on Tuesday, November 10th from 7:00\u20138:00 PM. Directed by Marc Ainger (Music/ACCAD) and Fede C\u00e1mara Halac (GAHDT PostDoc), the Sonic Arts Ensemble explores the extension of traditional instruments and modes of performance into new, imaginative realms of action and interaction.  For this special concert, the Sonic Arts Ensemble meets in virtual space to connect from their homes in Argentina and the U.S. (Ohio, Indiana, New York, Florida). Ann Stimson (Music), Norah Zuniga Shaw (Dance/ACCAD), and Oded Huberman (Dance/ACCAD) will perform along with several other collaborators.  A link to this free online event will be available on The Wexner Center for the Arts website.",
+                    "url": "https://accad.osu.edu/news/sonic-arts-ensemble-performs-multiverse"
+                },
+                {
+                    "year": "2020",
+                    "timestamp": "6/20/2020 19:17:06",
+                    "dates": "09 May 2020",
+                    "title": "CyberJam en La Cupula",
+                    "employer": "Hijos de Distinta Madre",
+                    "location": "La Cupula Galeria de Arte - C\u00f3rdoba (Argentina)",
+                    "description": "Pure Data, joyosc, and a PS4 Controller",
+                    "narrative": "Thanks to Federico Ragessi & Franco Pellini (Hijos de Distinta Madre), and Jorge Castr (fisterni @ La Cupula).",
+                    "url": "https://www.facebook.com/watch/?v=259076731815610"
+                },
+                {
+                    "year": "2020",
+                    "timestamp": "6/20/2020 19:12:18",
+                    "dates": "04 March 2020",
+                    "title": "Concierto de arte sonoro en Espacio B",
+                    "employer": "Ricardo Barney & Pedro Fraguela",
+                    "location": "Espacio B - Madrid (Spain)",
+                    "description": "Laptop",
+                    "narrative": "A performance for the work 'untitled 2' was given at Espacio B in Madrid thanks to Pedro Fragela and the Espacio B team. See a short video they made here: https://youtu.be/tzsewW-t12U, and follow Espacio B in facebook.",
+                    "url": "https://www.facebook.com/EspacioB.Madrid."
+                },
+                {
+                    "year": "2020",
+                    "timestamp": "6/20/2020 19:37:55",
+                    "dates": "15 January 2020",
+                    "title": "CLIMATE GATHERING",
+                    "employer": "Norah Zuniga Shaw",
+                    "location": "Movement Lab at Barnard College - New York City, NY (USA)",
+                    "description": "Max/MSP and Ipad",
+                    "narrative": "The Livable Futures performance rituals, CLIMATE GATHERING, will begin an international tour in 2020 starting with a residency at Barnard\u2019s Movement Lab in NYC and moving the Australia next. Climate Gatherings integrate performance and creative community dialog to turn toward climate change and create space for feeling into action. Audiences enter into a charged and charismatic space of sound, light, motion and contemporary ritual. More information here: https://accad.osu.edu/news/creative-action-climate",
+                    "url": "https://livablefuturesnow.org/events/feb2019-climate-gathering-bayl5-4ex4y-fpm7j"
+                },
+                {
+                    "year": "2019",
+                    "timestamp": "6/20/2020 19:29:23",
+                    "dates": "21 December 2019",
+                    "title": "HDDM + ffddcchh + Marmotas Dreams & friends",
+                    "employer": "Hijos de Distinta Madre",
+                    "location": "La Cupula Galeria de Arte - C\u00f3rdoba (Argentina)",
+                    "description": "Pure Data, joyosc, and a PS4 Controller",
+                    "narrative": "Thanks to Federico Ragessi and Franco Pellini (Hijos de Distinta Madre),  Marmotas Dreams (Berenice Llorens and Constanza Pellicci) , and Jorge Castro (fisterni @ La Cupula) for an amazing performance and night.",
+                    "url": "https://www.facebook.com/watch/?v=553716875479273"
+                },
+                {
+                    "year": "2019",
+                    "timestamp": "6/20/2020 19:32:44",
+                    "dates": "19 December 2019",
+                    "title": "HDDM + ffddcchh",
+                    "employer": "Hijos de Distinta Madre",
+                    "location": "Casa Mandarina - C\u00f3rdoba (Argentina)",
+                    "description": "Pure Data, joyosc, and a PS4 Controller",
+                    "narrative": "Thanks to Federico Ragessi & Franco Pellini (Hijos de Distinta Madre) for this performance.",
+                    "url": ""
+                },
+                {
+                    "year": "2019",
+                    "timestamp": "6/20/2020 19:25:11",
+                    "dates": "08 December 2019",
+                    "title": "Mermetom + Fede Camara Halac",
+                    "employer": "Mermetom (Gustavo Alcaraz & Vero Guevara) and ",
+                    "location": "La Cupula Galeria de Arte - C\u00f3rdoba (Argentina)",
+                    "description": "Pure Data, joyosc, and a PS4 Controller",
+                    "narrative": "Thanks to Mermetom (Gustavo Alcaraz & Vero Guevara), Cesar Alarcon, and Jorge Castro (fisterni @ La Cupula) for this performance.",
+                    "url": "https://www.facebook.com/watch/?v=456674605038406"
+                },
+                {
+                    "year": "2019",
+                    "timestamp": "11/4/2019 15:07:24",
+                    "dates": "23 September 2019",
+                    "title": "Sonic Arts Ensemble and Atelier Avant Austria present \"Virtuoso Chances\"",
+                    "employer": "Andreas Weixler, Se-Lien Chuang, Marc Ainger, Ann Stimmson, and the Sonic Arts Ensemble",
+                    "location": "ACCAD Motion Lab - Columbus, OH (USA)",
+                    "description": "Pure Data, joyosc, and a PS4 Controller",
+                    "narrative": "The Ohio State Sonic Arts Ensemble will perform as part of a concert with invited guests from Vienna, Austria. The composer-performer duo Atelier Avant Austria, Se-Lien Chuang and Andreas Weixler, will present a portrait concert at the Advanced Computing Center for the Arts and Design (ACCAD). Andreas Weixler of the duo Atelier Avant AustriaThe Austrian/Taiwanese artists will perform a concert of algorithmically generated sound, improvisation, real time audiovisual processing, electroacoustic music and video. Joining them will be the Ohio State Sonic Arts Ensemble (co-directed by Marc Ainger and Federico Camara Halac) and flutist Ann Stimson. Andreas Weixler and Se-Lien Chuang founded Atelier Avant Austria in 1996 as an artist co-op for composition, computer music and multimedia, based  in Austria. In 2018, Andreas and Sei-Lin received the 2018 ICMA award for the best European performance. Currently, both are specializing in intermedia concerts of improvisation and audiovisual real-time computing. This special concert presentation is hosted by Livable Futures, an initiative of the Global Arts + Humanities Discovery Theme; The Ohio State University School of Music; and Advanced Computing Center for the Arts and Design (ACCAD); with kind support of the Austrian Cultural Forum, New York City (ACFNY).",
+                    "url": "https://accad.osu.edu/news/vituoso-chances-september-23-8pm"
+                },
+                {
+                    "year": "2017",
+                    "timestamp": "7/8/2018 16:35:10",
+                    "dates": "03 August 2017",
+                    "title": "Lorenz Variations",
+                    "employer": "",
+                    "location": "Cube Fest at Virginia Tech - Blacksburgh, VA (USA)",
+                    "description": "Computer and speakers",
+                    "narrative": "Live electronics performance at The Cube, with a 149-speaker array and a stereo video projection.",
+                    "url": ""
+                },
+                {
+                    "year": "2016",
+                    "timestamp": "7/8/2018 16:31:37",
+                    "dates": "06 August 2016",
+                    "title": "Canon",
+                    "employer": "Proyecto[Red]Ensamble",
+                    "location": "Centro Cultural Graciela Carena - New York City, NY (USA)",
+                    "description": "Midi controller and Laptop",
+                    "narrative": "Live performance with Pure Data and Arduino of the piece ``Canon.'' The piece was written for and performed by C\u00f3rdoba-based ensemble ``Proyecto[Red]Ensamble'' ",
+                    "url": ""
+                }
+            ],
+            "LiveVideoandElectronics": [
+                {
+                    "year": "2017",
+                    "timestamp": "7/8/2018 16:22:50",
+                    "dates": "19 June 2017",
+                    "title": "Electroacoustic Improvisations.",
+                    "employer": "Joan Bages i Rubi, Bernardo Barros, Kyle Motl, and Joan Marti Frasquier,",
+                    "location": "NYU Waverly Labs r.220 - New York City, NY (USA)",
+                    "description": "Midi controller and Laptop",
+                    "narrative": "Live electronics and visuals with Joan Bages i Rubi - Bernardo Barros - Kyle Motl - and Joan Marti Frasquier",
+                    "url": ""
+                },
+                {
+                    "year": "2017",
+                    "timestamp": "7/8/2018 16:24:10",
+                    "dates": "07 April 2017",
+                    "title": "a.le.a",
+                    "employer": "Talea Ensemble",
+                    "location": "The Dimenna Center for Classical Music - New York City, NY (USA)",
+                    "description": "Midi controller and networked Laptops",
+                    "narrative": "Live video and electronics premiere of ``a.le.a'' with Talea Ensemble. I performed MIDI controller and video projections under the direction of Jeff Means.",
+                    "url": ""
+                },
+                {
+                    "year": "2016",
+                    "timestamp": "7/8/2018 16:29:30",
+                    "dates": "22 November 2016",
+                    "title": "Ciudad Invertida",
+                    "employer": "RAGE THORMBONES",
+                    "location": "ShapeShifter Lab - New York City, NY (USA)",
+                    "description": "Laptop",
+                    "narrative": "Live video and electronics performance of ``Ciudad Invertida (2016)'' with the trombone duo ``Rage Thormbones.'' The performance took place during the concerts of the 2016 Pure Data Convention (PdCon16~)",
+                    "url": ""
+                },
+                {
+                    "year": "2016",
+                    "timestamp": "7/8/2018 16:20:27",
+                    "dates": "11 October 2016",
+                    "title": "Opening Portals",
+                    "employer": "Jessica Rosen",
+                    "location": "ShapeShifter Lab in Brooklyn - New York City, NY (USA)",
+                    "description": "Bookentiometers",
+                    "narrative": "Bookentiometers is a Pure Data instrument reacting to light. It was made with Arduino for Jessica Rosen's Performance. Thanks to Jessica Rosen for her kind invitation.",
+                    "url": ""
+                },
+                {
+                    "year": "2016",
+                    "timestamp": "7/8/2018 16:30:26",
+                    "dates": "29 September 2016",
+                    "title": "sk",
+                    "employer": "TAK Ensemble",
+                    "location": "Waverly Labs, r.220 - New York City, NY (USA)",
+                    "description": "Laptop",
+                    "narrative": "Live video and electronics of the piece ``sk'' with New York-based Ensemble ``TAK.'' I performed with laptop and video projections.",
+                    "url": ""
+                },
+                {
+                    "year": "2016",
+                    "timestamp": "7/8/2018 16:32:19",
+                    "dates": "20 April 2016",
+                    "title": "INOPERA",
+                    "employer": "Loadbang Ensemble",
+                    "location": "The Dimenna Center for Classical Music - New York City, NY (USA)",
+                    "description": "Midi controller and Laptop",
+                    "narrative": "Live video and electronics of the piece ``INOPERA'' with New York-based ensemble ``loadbang''. I performed with a MIDI controller, laptop and video projector.",
+                    "url": ""
+                },
+                {
+                    "year": "2015",
+                    "timestamp": "7/8/2018 16:33:20",
+                    "dates": "20 August 2015",
+                    "title": "Ciudad Invertida",
+                    "employer": "Roc\u00edo Elizalde y Manuel Pastrana",
+                    "location": "Bienal 3 en Composici\u00f3n e Investigaci\u00f3n Musical - C\u00f3rdoba (Argentina)",
+                    "description": "Laptop",
+                    "narrative": "Live video and electronics premiere of the piece ``Ciudad Invertida (2015)'' with Roc\u00edo Elizalde and Manuel Pastrana during the Bienal 3 en Composici\u00f3n e Investigaci\u00f3n Musical (B3CIM).",
+                    "url": ""
+                },
+                {
+                    "year": "2015",
+                    "timestamp": "7/8/2018 16:15:39",
+                    "dates": "06 February 2015",
+                    "title": "Mise-En at German House",
+                    "employer": "Samuel Marques",
+                    "location": "German Consulate - New York City, NY (USA)",
+                    "description": "Pure Data live processing",
+                    "narrative": "Live electronics performance of the piece ``Venas'' with New York-based Ensemble Mise-En's Bass Clarinet player Samuel Marques",
+                    "url": ""
+                }
+            ]
+        }
+    }
+]

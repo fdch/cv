@@ -1,414 +1,622 @@
 ---
-title:
--  Professorship
--  Professorship
--  Course Assistantship
--  Professorship
--  Teaching Assistantship
--  Teaching Assistantship
--  Postdoctoral Fellow
--  Dean’s Dissertation Fellowship
--  GRI Fellowship
--  Student Senators Council
--  Selected Works
--  MacCracken Fellowship
--  Programa Cuarto Centenario
--  Orchestral Performance
--  Networked Performance Music
--  Concierto de arte sonoro en Espacio B
--  CLIMATE GATHERING
--  Say Under
--  Untitled
--  Untitled 2
--  Electroacoustic Improvisations.
--  a.le.a
--  Ciudad Invertida (2016)
--  INOPERA
--  Ciudad Invertida (2015)
--  Momenta Quartet Plays NYU Composers
--  The Woods
-- " Installation: Hearing the Self"
-- " Theatre: Poroto"
-- " Opera: Los chicos de abril"
--  Reviewer
--  Reviewer
--  PdCon16[\~](~)
--  Waverly Project
--  Proyecto\[Red\]Ensamble
--  Bienal Composición Córdoba
+address:
+- |
+  +1 614 440 7529  
+  camarahalac.1@osu.edu  
+  https://fdch.github.io
+- |
+  349C Sullivant Hall,  
+  1813 North High Street,  
+  Columbus, OH 43210
 ---
 
 <div class="resume">
 
-# POST-DOCTORAL EXPERIENCE
+# Education
 
-**Ohio State University**, Columbus, OH  
-Postdoctoral Scholar in Immersive Audio at the Advanced Computing Center
-for the Arts and Design (2019-2021)
+## PhD
 
-# EDUCATION
+-   **Music Composition and Theory, New York University.** Graduate
+    School of Arts and Sciences. Dissertation title: “Database Music: A
+    History, Technology, and Aesthetics of the Database in Music
+    Composition”. Advisor: Jaime Oliver La Rosa (NYU GSAS). Readers:
+    Elizabeth Hoffman (NYU GSAS), Martin Daughtry (NYU GSAS), William
+    Brent (American University), and Robert Rowe (NYU Steinhardt). New
+    York, NY (USA). Sep 2013 - Jun 2019.
 
-**New York University**, New York, NY  
-PhD in Music Composition and Theory, May 2019
+## Licenciate
 
-**Universidad Nacional de Córdoba**, Córdoba, Argentina  
-Licenciate in Music Composition, May 2012  
-Thesis Title: *A Form of Pleasure: Music as an Experience of Pleasure*
+-   **Music Composition, Universidad Nacional de Córdoba.** Facultad de
+    Artes. Thesis Title: “A Form of Pleasure: Music as an Experience of
+    Pleasure”. Advisor: José Halac. Readers: Eleazar Garzón, Sergio
+    Poblete, Claudio Bazán, and Pablo de Giusto (Bachelor and Masters
+    equivalence). Córdoba (Argentina). Mar 2006 - Jul 2012.
 
-# DISSERTATION
+# Professional Appointments
 
-**Title**: Database Music: A History, Technology, and Aesthetics of the
-Database in Music Composition  
-**Advisor**: Jaime Oliver La Rosa  
-**Committee**: Elizabeth Hoffman (NYU GSAS) - Martin Daughtry (NYU GSAS)
-- William Brent (American University) - Robert Rowe (NYU Steinhardt)  
-**Summary**: This dissertation outlines a framework to discuss the
-aesthetic agency of the database in music composition. I place my
-dissertation in relation to existing scholarship, artists, and
-developers working in the fields of music composition, computer science,
-affect, and ontology, with emphasis on the ubiquity of databases and on
-the need to reflect on their practice, particularly in relation to
-databasing and music composition. There is a database everywhere,
-anytime, always already affecting our lives; it is an agent in our
-aesthetic and political lives just as much as we are agents in its
-composition and performance. Database music lives in between computers
-and sound. My argument is that in order to conceptualize the agency of
-the database in music composition, we need to trace the history of the
-practice, in both its technical and its artistic use, so as to find
-nodes of action that have an effect on the resulting aesthetics.
+## Postdoctorate
 
-# RESEARCH
+-   **Postdoctoral Scholar in Immersive Audio, The Ohio State
+    University.** Global Arts and Humanities Discovery Theme, School of
+    Music, Advanced Computing Center for the Arts and Design. Columbus,
+    OH (USA). 2019-2021.
 
-Database Music; Spatial Audio; Immersive Sound; Computer Music
-Techniques; Machine Learning; Sonification; Algorithmic Composition;
-Computer Vision; Digital Instrument Design; Networked Performance Music
+# Research Interests
 
-# PUBLICATIONS
+Computer Music. Spatial Audio. Immersive Sound. Machine Learning.
+Digital Signal Processing. Algorithmic Composition. Computer Vision.
+Networked Performance Music. Sonification. Database Music.
 
--   2020 - 11/10 (Performance) - Wexner Center For The Arts - USA /
-    ARG - NETWORKED PERFORMANCE MUSIC with Elizabeth A Baker and the
-    Sonic Arts Ensemble at OSU.
+# Publications
 
--   2020 - 7/25 (Poster) -  “Pathosonic” presentation - NIME, Royal
-    Birmingham Conservatory, UK
+## Conference Proceedings
 
--   2020 - 3/29 (Release) - “basura” (Viajero Experimental Inmóvil) and
-    "Diciembre" (SUDA)
+-   **Visual Cues as an Aid in the Auditory Stream Segregation of
+    Music.** International Conference on Music Perception and Cognition
+    - European Society for the Cognitive Sciences of Music. Samantha
+    Burgess, Federico Camara Halac, and Daniel Shanahan. 28
+    September 2021.
 
--   2020 - 3/4 (Performance) - “untitled2” - Espacio B, Madrid, Spain
+<!-- -->
 
--   2020 - 1/15 (Performance) - CLIMATE GATHERING RESIDENCY - Movement
-    Lab at Barnard College, NYC - Residency at Barnard’s Movement Lab in
-    NYC with Livable Futures Now.
+-   **‘The Woods:’ A Mixed Reality Two-Player Cooperative Game.**
+    SIGGRAPH. Scott Swearingen, Kyoung Swearingen, Federico Camara
+    Halac, Sruthi Ammannagari, and Matt Hall. 09 August 2021.
 
--   2019 (Fellowship) - Postdoctoral Fellow - Ohio State University -
-    Global Arts and Humanities Theme - Fully funded, 2-year postdoctoral
-    research position.
+<!-- -->
 
--   2019 - 12/19,22 (Performance) - Live electronics with HDDM at La
-    Cupula - Cordoba, Argentina 
+-   **DreamSound: Deep Activation Layer Sonification.** International
+    Community for Auditory Displays. Federico Camara Halac and Matias
+    Delgadino. 25 July 2021.
 
--   2019 - 5/10 (Dissertation) - NYU - Dissertation Defense
+<!-- -->
 
--   2019 (Fellowship) - Dean’s Dissertation Fellowship - NYC-Berlin -
-    NYU GSAS - 9-month.
+-   **Comparing Musical Performances of the ‘Goldberg Variations’ Using
+    Supervised Machine Learning Techniques.** Future Directions of Music
+    Cognition (Accepted but not presented). Arturo Barrios, Leo A.
+    Glowacki, Lindsay Warrenburg, and Federico Camara Halac. 12
+    February 2021.
 
--   2018 - 2/3 (Publication) - “For Young Ears” - Open Space Magazine -
-    New York, USA - published article.
+<!-- -->
 
--   2018 - 8/3 (Performance) - “Say Under” - Tehran International
-    Electronic Music Festival - Tehran, IRAN - commission by the
-    Offborders Festival for Electroactoustic music
+-   **A Spectral Experience: Self Convolution and Face Tracking.**
+    International Computer Music Conference (Accepted but not
+    presented). 11 October 2017.
 
--   2018 - 8/3 (Performance)  - “Untitled” - CUBE FEST - Virginia Tech,
-    Blacksburg, VA 
+## Conference Poster
 
--   2018 - 6/10 (Performance) - “untitled2” - Delian Academy for New
-    Music - Mykonos, Greece
+-   **PathoSonic: Performing Sound In Virtual Reality Feature Space.**
+    New Interfaces for Musical Expression. Federico Camara Halac and
+    Shadrick Addy. 24 January 2020.
 
--   2018 (Fellowship) - Florence, Italy - NYU Global Research
-    Initiatives - 3-month.
+## Conference Panel
 
--   2017 - 4/7 (Performance) - “a.le.a” - TALEA ENSEMBLE - Dimenna
-    Center, NYC
+-   **\[clone fd\_dacout\]: real-time massively multichannel
+    spatialization in Pure Data.** Jornadas de Informática y Electrónica
+    Musical - Espacios Sonoros. 05 March 2020.
 
--   2017 (Grant) - “Hearing The Self” - Student Senators Council -
-    Shanghai, China - NYU SSC
+## PhD Dissertation Defense
 
--   2017 (Fellowship) - Paris, France - NYU Global Research
-    Initiatives - 3-month.
+-   **Database Music: A History, Technology, and Aesthetics of the
+    Database in Music Composition.** New York University. 06 May 2019.
 
--   2015 (Award) - “Ciudad Invertida” - Selected Works mention -
-    Fundación Destellos 
+## Guest Speaker
 
--   2014 (Award) - “Venas” - Selected Works mention - Fundación
-    Destellos 
+-   **A History of the Database in Computer Music.** Festival
+    Atemporáneas. 13 September 2021.
 
--   2013 (Fellowship) - MacCracken Fellowship - New York City, USA - NYU
-    GSAS  - 5-year.
+<!-- -->
 
--   2012 (Grant) - Programa Cuarto Centenario - l’Université de Montréal
-    to study C++ - 3-month.
+-   **Composing Database: Opening A Space For The Concept Of An Anarchic
+    Unwork Of Art..** Delian Academy for New Music. 11 June 2018.
 
--   2011 (Performance) - TSONAMI - Buenos Aires, Argentina -
-    Improvisation with Leim Ensamble
+<!-- -->
 
--   2011 (Peformance)- “Lagos” (orchestra) - Córdoba, Argentina - UNC
-    Symphony Orchestra
+-   **Inopera: A Multimedia Work for Loadbang and Pure Data.**
+    Universidad Nacional de Córdoba. 15 June 2016.
 
-# OTHER SKILLS
+## Other Publications
 
-**Languages**: English, Spanish, French (intermediate), German
-(beginner)  
-**Computer Languages**: Pure Data, C, C++, Bash, Python, JavaScript,
-HTML, CSS  
-**Video/Audio Production Software**: Adobe Creative Suite, Max/MSP,
-Audacity, Csound, AOO, Jacktrip
+-   **‘For Young Years:’ A Response To Elsa Justel’s Marelle.** Open
+    Space Magazine - Issue 21 . 10 August 2017.
 
-# TEACHING EXPERIENCE
+# Awards and Honors
 
-<div class="position">
+## Fellowships
 
-Lectures, excercises, and grading. Co-taught with Dr. Dan Sullivan
+-   **Dean’s Dissertation.** Graduate School of Arts and Sciences (New
+    York University). Berlin (Germany).
 
-</div>
+<!-- -->
 
-<div class="position">
+-   **Graduate Research Initiative.** Provost (New York University).
+    Florence (Italy).
 
-Lectures, concerts, and grading. Co-taught with Dr. Marc Ainger
+<!-- -->
 
-</div>
+-   **Graduate Research Initiative.** Provost (New York University).
+    Paris (France).
 
-<div class="position">
+<!-- -->
 
-Recitation lessons, some lectures, and grading. Co-taught with Dr. Jaime
-Oliver
+-   **The Henry M. MacCracken Program.** Graduate School of Arts and
+    Sciences (New York University). New York City (USA).
 
-</div>
+## Prizes
 
-<div class="position">
+-   **"Ciudad Invertida" (Selected Works).** Elsa Justel (Fundación
+    Destellos). Mar del Plata (Argentina).
 
-Syllabus, lectures, and grading.
+<!-- -->
 
-</div>
+-   **"Venas" (Selected Works) .** Elsa Justel (Fundación Destellos).
+    Mar del Plata (Argentina).
 
-<div class="position">
+<!-- -->
 
-Recitation lessons and grading.
+-   **"Lagos" (Orchestral Premiere).** Orquesta Sinfónica de la UNC -
+    Músicas en Dirigible (Universidad Nacional de Córdoba). Córdoba
+    (Argentina).
 
-</div>
+## Conference Funds
 
-<div class="position">
+-   **Student Senators Council.** Graduate School of Arts and Sciences
+    (New York University). Shanghai (China).
 
-Recitation lessons, some lectures, and grading.
+## Exchange Program
 
-</div>
+-   **Programa Cuarto Centenario.** Prosecretaría de Relaciones
+    Internacionales (Universidad Nacional de Córdoba and Université de
+    Montréal). Montréal (Canada).
 
-# HONORS AND AWARDS
+# Performances
 
-<div class="position">
+## Solo
 
-Fully funded, 2-year postdoctoral research position.
+-   **Concierto de arte sonoro en Espacio B.** Ricardo Barney & Pedro
+    Fraguela. Laptop. Espacio B - Madrid (Spain). 04 March 2020.
 
-</div>
+<!-- -->
 
-<div class="position">
+-   **Lorenz Variations.** Cube Fest at Virginia Tech - Blacksburgh, VA
+    (USA). 03 August 2017.
 
-Nine-month stipend.
+<!-- -->
 
-</div>
+-   **Opening Portals.** Jessica Rosen. Bookentiometers. ShapeShifter
+    Lab in Brooklyn - New York City, NY (USA). 11 October 2016.
 
-<div class="position">
+## The Sonic Arts Ensemble at OSU
 
-Research abroad.
+-   **8th Music and/as Process Conference: Networked Collaborative
+    Processes 2021.** Thornblower. Netty McNetface - Columbus, OH (USA).
+    26 June 2021.
 
-</div>
+<!-- -->
 
-<div class="position">
+-   **SEAMUS (TWELVE).** Thornblower. CCRMA - Stanford, CA (USA). 23
+    April 2021.
 
-Conference travel grant.
+<!-- -->
 
-</div>
+-   **Earth Day Art Model 2021.** Thornblower. EDAM Festival -
+    Indianapolis, IA (USA). 22 April 2021.
 
-<div class="position">
+<!-- -->
 
-“Ciudad Invertida” and “Venas” were awarded the “Selected Works”
-mention.
+-   **Sonic Arts Ensemble Live-Stream Performance.** Thornblower. Netty
+    McNetface - Columbus, OH (USA). 06 April 2021.
 
-</div>
+<!-- -->
 
-<div class="position">
+-   **Into The Multiverse.** Thornblower. The Wexner Center for the Arts
+    - Columbus, OH (USA). 20 October 2020.
 
-Five-year full tuition and stipend towards Ph.D completion.
+<!-- -->
 
-</div>
+-   **Sonic Arts Ensemble and Atelier Avant Austria present "Virtuoso
+    Chances".** Andreas Weixler, Se-Lien Chuang, Marc Ainger, Ann
+    Stimmson, and the Sonic Arts Ensemble. Pure Data, joyosc, and a PS4
+    Controller. ACCAD Motion Lab - Columbus, OH (USA). 23
+    September 2019.
 
-<div class="position">
+## Hijos de Distinta Madre
 
-Exchange at l’Université de Montréal to study C++.
+-   **CyberJam en La Cupula.** Pure Data, joyosc, and a PS4 Controller.
+    La Cupula Galeria de Arte - Córdoba (Argentina). 09 May 2020.
 
-</div>
+<!-- -->
 
-<div class="position">
+-   **HDDM + ffddcchh + Marmotas Dreams & friends.** Pure Data, joyosc,
+    and a PS4 Controller. La Cupula Galeria de Arte - Córdoba
+    (Argentina). 21 December 2019.
 
-Premiere of “Lagos” by Gonzalo Bustos and the Symphony Orchestra of the
-UNC.
+<!-- -->
 
-</div>
+-   **HDDM + ffddcchh.** Pure Data, joyosc, and a PS4 Controller. Casa
+    Mandarina - Córdoba (Argentina). 19 December 2019.
 
-# SELECTED PERFORMANCES
+<!-- -->
 
-<div class="position">
+-   **Mermetom + Fede Camara Halac.** Mermetom (Gustavo Alcaraz & Vero
+    Guevara) and . Pure Data, joyosc, and a PS4 Controller. La Cupula
+    Galeria de Arte - Córdoba (Argentina). 08 December 2019.
 
-With Elizabeth A Baker and the Sonic Arts Ensemble at OSU
+## Live Video and Electronics
 
-</div>
+-   **Electroacoustic Improvisations..** Joan Bages i Rubi, Bernardo
+    Barros, Kyle Motl, and Joan Marti Frasquier,. Midi controller and
+    Laptop. NYU Waverly Labs r.220 - New York City, NY (USA). 19
+    June 2017.
 
-<div class="position">
+<!-- -->
 
-Performed next to Pedro Fragela at the Espacio B Madrid.
+-   **a.le.a.** Talea Ensemble. Midi controller and networked Laptops.
+    The Dimenna Center for Classical Music - New York City, NY (USA). 07
+    April 2017.
 
-</div>
+<!-- -->
 
-<div class="position">
+-   **Ciudad Invertida.** RAGE THORMBONES. Laptop. ShapeShifter Lab -
+    New York City, NY (USA). 22 November 2016.
 
-Residency at Barnard’s Movement Lab in NYC with Livable Futures Now.
+<!-- -->
 
-</div>
+-   **sk.** TAK Ensemble. Laptop. Waverly Labs, r.220 - New York City,
+    NY (USA). 29 September 2016.
 
-<div class="position">
+<!-- -->
 
-Video performance of video commissioned by the Offborders Festival for
-Electroactoustic music
+-   **INOPERA.** Loadbang Ensemble. Midi controller and Laptop. The
+    Dimenna Center for Classical Music - New York City, NY (USA). 20
+    April 2016.
 
-</div>
+<!-- -->
 
-<div class="position">
+-   **Ciudad Invertida.** Rocío Elizalde y Manuel Pastrana. Laptop.
+    Bienal 3 en Composición e Investigación Musical - Córdoba
+    (Argentina). 20 August 2015.
 
-Live electronics performance at The Cube, with a 149-speaker array and
-stereo video projection.
+<!-- -->
 
-</div>
+-   **Mise-En at German House.** Samuel Marques. Pure Data live
+    processing. German Consulate - New York City, NY (USA). 06
+    February 2015.
 
-<div class="position">
+<!-- -->
 
-Live acousmatic performance at the Delian Academy for New Music.
+-   **Momenta Quartet Plays NYU Composers.** Momenta Quartet. Laptop.
+    NYU Silver Center r.220 - New York City, NY (USA). 21 April 2014.
 
-</div>
+## LEIM Ensamble
 
-<div class="position">
+-   **Ciclo Experimentalia.** Piano, Analog Synthesizer. Centro Cultural
+    España Córdoba - Córdoba (Argentina). 10 August 2012.
 
-Live electronics and visuals with Joan Bages i Rubi - Bernardo Barros -
-Kyle Motl - and Joan Marti Frasquier
+<!-- -->
 
-</div>
+-   **Summer Concert.** Piano, Analog Synthesizer. Auditorio CePIA -
+    Córdoba (Argentina). 10 November 2011.
 
-<div class="position">
+<!-- -->
 
-Live video and electronics premiere of “a.le.a” with Talea Ensemble. I
-performed MIDI controller and video projections under the direction of
-Jeff Means.
+-   **Teatro Acústico.** Piano, Analog Synthesizer. Facultad de Artes,
+    UNC - Córdoba (Argentina). 02 October 2011.
 
-</div>
+<!-- -->
 
-<div class="position">
+-   **Ciclo Contengo-Arte.** Piano, Analog Synthesizer. Instituto
+    Italiano de Cultura - Córdoba (Argentina). 14 September 2011.
 
-Live video and electronics performance of “Ciudad Invertida (2016)” with
-the trombone duo “Rage Thormbones.” The performance took place during
-the concerts of the 2016 Pure Data Convention (PdCon16[\~](~))
+<!-- -->
 
-</div>
+-   **Micro-Symposio de Análisis Musical.** Piano, Analog Synthesizer.
+    Facultad de Artes, UNC - Córdoba (Argentina). 12 September 2011.
 
-<div class="position">
+<!-- -->
 
-Live video and electronics of the piece “INOPERA” with New York-based
-ensemble “loadbang”. I performed with a MIDI controller, laptop and
-video projector.
+-   **Winter Concert.** Piano, Analog Synthesizer. Auditorio CePIA -
+    Córdoba (Argentina). 23 August 2011.
 
-</div>
+<!-- -->
 
-<div class="position">
+-   **Ciclo Experimentalia.** Piano, Analog Synthesizer. Centro Cultural
+    España Córdoba - Córdoba (Argentina). 20 June 2011.
 
-Live video and electronics premiere of the piece “Ciudad Invertida
-(2015)” with Rocío Elizalde and Manuel Pastrana during the Bienal 3 en
-Composición e Investigación Musical (B3CIM).
+<!-- -->
 
-</div>
+-   **TSONAMI.** Piano, Analog Synthesizer. Centro Cultural Recoleta -
+    Buenos Aires (Argentina). 10 May 2011.
 
-<div class="position">
+<!-- -->
 
-Live video and feedback performance of the piece “Talita” with New
-York-based string quartet “Momenta Quartet.”
+-   **Nosocomio.** Piano, Analog Synthesizer. Centro Cultural España
+    Córdoba - Córdoba (Argentina). 12 December 2010.
 
-</div>
+<!-- -->
 
-# SELECTED COLLABORATIONS
+-   **Summer Concert.** Piano, Analog Synthesizer. Auditorio CePIA -
+    Córdoba (Argentina). 14 November 2010.
 
-<div class="position">
+<!-- -->
 
-“The Woods” is a multiplayer cooperative game that employs AR and
-4-channel audio spatialization with Scott and Kyoung Swearingen and
-others at ACCAD
+-   **1st International Biennial of Music Composition and Education.**
+    Piano, Analog Synthesizer. Auditorio CePIA - Córdoba (Argentina). 14
+    September 2010.
 
-</div>
+<!-- -->
 
-<div class="position">
+-   **Performances and Workshops.** Piano, Analog Synthesizer. LEIM
+    Facultad de Artes - Córdoba (Argentina). 01 January 2009.
 
-“Hearing the Self: A Spectral Experience.” With mathematicians Dr.
-Matías Delgadino and Dr. Lucía Simonelli
+## Proyecto \[Red\] Ensamble
 
-</div>
+-   **Canon.** Midi controller and Laptop. Centro Cultural Graciela
+    Carena - New York City, NY (USA). 06 August 2016.
 
-<div class="position">
+<!-- -->
 
-Electroacoustics for Celeste Lozada and Valentina Echeverría’s version
-of “Poroto” by Pavlovsky
+-   **Concert.** Piano. Auditorio CePIA - Córdoba (Argentina). 12
+    November 2012.
 
-</div>
+<!-- -->
 
-<div class="position">
+-   **Aniversario de la Facultad de Artes.** Piano, Trumpet, Midi
+    Controller. Auditorio CePIA - Córdoba (Argentina). 01 November 2012.
 
-Electronics for Luis Perez’s “Los chicos de abril” with Pablo Behm and
-Franco Pellini
+<!-- -->
 
-</div>
+-   **John Cage Festival.** Piano. Auditorio CePIA - Córdoba
+    (Argentina). 05 September 2012.
 
-# ADMINISTRATIVE EXPERIENCE
+<!-- -->
 
-<div class="position">
+-   **Concert at B2CIM.** Piano, Trumpet, Midi Controller. Auditorio
+    CePIA - Córdoba (Argentina). 23 August 2012.
 
-Music, and Installation reviewer for the Atemporaneas Music Festival
+<!-- -->
 
-</div>
+-   **Concierto de Alquimistas.** Piano. Aula Magna FCEFyN - Córdoba
+    (Argentina). 29 June 2012.
 
-<div class="position">
+<!-- -->
 
-Paper, Music, and Installation reviewer for ICMC
+-   **Concierto Final de Tesis.** Piano. Auditorio CePIA - Córdoba
+    (Argentina). 12 June 2012.
 
-</div>
+<!-- -->
 
-<div class="position">
+-   **Congreso de Ciencias Humana.** Electric Guitar. Escuela Monserrat
+    - Córdoba (Argentina). 20 October 2011.
 
-Organizer, graphic designer, and webmaster.
+<!-- -->
 
-</div>
+-   **Micro-Symposium de Análisis Musical.** Piano. Aula Magna de la
+    Facultad de Artes - Córdoba (Argentina). 10 September 2011.
 
-<div class="position">
+<!-- -->
 
-Co-founder, Organizer, graphic designer, and webmaster.
+-   **Arte Forum 2: Homage to Oscar Bazán.** Piano. Auditorio CePIA -
+    Córdoba (Argentina). 18 August 2011.
 
-</div>
+<!-- -->
 
-<div class="position">
+-   **Winter Concert.** Electric Guitar, Piano. Auditorio CePIA -
+    Córdoba (Argentina). 10 July 2011.
 
-Co-founder, Organizer, performer, graphic designer, and webmaster.
+<!-- -->
 
-</div>
+-   **Summer Concert.** Conductor. Auditorio CePIA - Córdoba
+    (Argentina). 20 November 2010.
 
-<div class="position">
+<!-- -->
 
-Organizer, graphic designer, and webmaster.
+-   **Ciclo La Máquina de Tiempo.** Trumpet. Centro Cultural España
+    Córdoba - Córdoba (Argentina). 02 July 2010.
 
-</div>
+## Other Roles
+
+-   **CLIMATE GATHERING.** Norah Zuniga Shaw. Max/MSP and Ipad. Movement
+    Lab at Barnard College - New York City, NY (USA). 15 January 2020.
+
+<!-- -->
+
+-   **Guest Pianist.** LAMOI. Piano. Paseo del Buen Pastor - Córdoba
+    (Argentina). 10 March 2012.
+
+<!-- -->
+
+-   **Inserto Beat.** Luisina Couto, Pablo Behm. Guitar. Cineclub
+    Municipal Hugo del Carril - Córdoba (Argentina). 18 September 2010.
+
+<!-- -->
+
+-   **Guest Pianist.** Orquesta Sinfónica de Rio Ceballos. Piano. Teatro
+    Municipal - Rio Ceballos, CBA (Argentina). 12 March 2010.
+
+# Teaching
+
+## Professor
+
+-   **Computational Musicology 8824.** The Ohio State University. School
+    of Music. Columbus, OH (USA). Spring 2021.
+
+<!-- -->
+
+-   **Sonic Arts Ensemble.** The Ohio State University. Advanced
+    Computing Center for the Arts and Design. Columbus, OH (USA).
+    Fall 2021.
+
+<!-- -->
+
+-   **Sonic Arts Ensemble.** The Ohio State University. Advanced
+    Computing Center for the Arts and Design. Columbus, OH (USA).
+    Spring 2020.
+
+<!-- -->
+
+-   **Sonic Arts Ensemble.** The Ohio State University. Advanced
+    Computing Center for the Arts and Design. Columbus, OH (USA).
+    Fall 2019.
+
+<!-- -->
+
+-   **Harmony and Counterpoint I.** New York University. Faculty of Arts
+    and Science. New York, NY (USA). Fall 2015.
+
+## Course Assistant
+
+-   **Computer Music Theory and Techniques.** New York University.
+    Faculty of Arts and Science. New York, NY (USA). Fall 2016.
+
+## Teaching Assistant
+
+-   **Harmony and Counterpoint II.** New York University. Faculty of
+    Arts and Science. New York, NY (USA). Spring 2015.
+
+<!-- -->
+
+-   **Harmony and Counterpoint I.** New York University. Faculty of Arts
+    and Science. New York, NY (USA). Fall 2014.
+
+<!-- -->
+
+-   **Composición Musical I.** Universidad Nacional de Córdoba. Facultad
+    de Artes. Cordoba, CBA (ARG).
+
+<!-- -->
+
+-   **Composición Musical I.** Universidad Nacional de Córdoba. Facultad
+    de Artes. Cordoba, CBA (ARG).
+
+<!-- -->
+
+-   **Audioperceptiva I.** Universidad Nacional de Córdoba. Escuela de
+    Artes - FFyH. Cordoba, CBA (ARG).
+
+<!-- -->
+
+-   **Audioperceptiva I.** Universidad Nacional de Córdoba. Escuela de
+    Artes - FFyH. Cordoba, CBA (ARG).
+
+# Artistic Collaborations
+
+## Networked Performance Music
+
+-   **1002: A Networked Music Performance with CollidePd** (ongoing).
+    International Computer Music Conference. Federico Ragessi. Córdoba
+    (Argentina).
+
+<!-- -->
+
+-   **The Sonic Arts Ensemble at OSU** (ongoing). Advanced Computing
+    Center for the Arts and Design. Marc Ainger and Ann Stimson.
+    Columbus, OH (USA).
+
+## Installations
+
+-   **The Woods** (ongoing). Advanced Computing Center for the Arts and
+    Design. Kyoung Swearingen, Scott Swearingen, Marc Ainger, Sruthi
+    Ammanngari, and Matt Hall. Columbus, OH (USA).
+
+<!-- -->
+
+-   **Hearing the Self: A Spectral Experience.** Xuhui Art Muesum.
+    Matias Delgadino and Lucia Simonelli. Shanghai (China).
+
+## Theatre
+
+-   **Poroto.** Pabellón Azul - UNC . Celeste Lozada and Valentina
+    Echeverría. Córdoba (Argentina).
+
+<!-- -->
+
+-   **Itinerante: un Viaje a Través de Los Sentidos.** Sindicato de
+    Vendendores de Diarios y Revistas. Agustina Muñoz. Córdoba
+    (Argentina).
+
+<!-- -->
+
+-   **Tesis de Licenciatura de Teatro.** Plazoleta del Fundador. Luisina
+    Couto. Córdoba (Argentina).
+
+<!-- -->
+
+-   **Inserto Beat.** Cineclub Municipal Hugo del Carril. Luisina Couto.
+    Córdoba (Argentina).
+
+## Other Collaborations
+
+-   **Los Chicos de Abril (Opera).** Teatro Municipal de Río Cuarto.
+    Luis Perez, Pablo Behm, and Franco Pellini. Rio Cuarto , CBA
+    (Argentina).
+
+<!-- -->
+
+-   **Al Cielo o al Infierno (Film).** Cines Gran Rex. Lauro Racosky.
+    Córdoba (Argentina).
+
+<!-- -->
+
+-   **Alicia en el País de las Maravillas (Dance).** Teatro del
+    Libertador San Martín. José Halac. Córdoba (Argentina).
+
+# Service
+
+## Disciplinary Service
+
+-   **New Interfaces for Musical Expression** (ongoing). Reviewer. Paper
+    and Installation submissions. New York City (USA).
+
+<!-- -->
+
+-   **Festival Atemporaneas.** Reviewer. Installation, Audiovisual, and
+    Sound Art submissions. Buenos Aires (Argentina). 2019-2020.
+
+<!-- -->
+
+-   **New York City Electroacoustic Music Festival** (ongoing).
+    Reviewer. Music submissions. New York City (USA).
+
+<!-- -->
+
+-   **International Computer Music Conference** (ongoing). Reviewer.
+    Installations and Music Submissions. New York City (USA).
+
+<!-- -->
+
+-   **PdCon16\~.** Organizer. Website and Conference Program. New York
+    City (USA).
+
+<!-- -->
+
+-   **Bienal Composición Córdoba.** Organizer. Website and Conference
+    Program. Córdoba (Argentina). 2010-2015.
+
+## University Service
+
+-   **Waverly Project.** Founding Member. Website and Program. New York
+    City (USA). 2013-2017.
+
+<!-- -->
+
+-   **Proyecto \[Red\] Ensamble.** Founding Member. Website and Program.
+    Córdoba (Argentina). 2010-2015.
+
+# Other Skills
+
+-   **Spanish** (Native) **English** (Advanced) **French**
+    (Intermediate) **German** ( Beginnder, A2 Level. Currently
+    Studying.)
+
+-   **Pure Data** (Expert) **Python** (Advanced: Numpy, Scipy,
+    tensorflow, librosa) **JavaScript** (Advanced: Web Audio API,
+    Node.js) **C** (Pure Data Externals) **C++** (GEM and Max MSP
+    Externals) **Bash** (Server-side scripting) **HTML** (Web Publishing
+    with CSS) **Latex** (Text Publishing) **Git** (Version management,
+    software release)
+
+-   **Max/MSP.** **Csound.** **Jacktrip.** **Audacity.** **REAPER.**
+    **Ableton Live.** **Adobe Creative Suite.**
 
 </div>

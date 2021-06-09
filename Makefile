@@ -1,18 +1,44 @@
 # Makefile for cv
+DATADIR=data
+SRCDIR=src
+TMP=temp
+PDF=$(DATADIR)/$(TMP).pdf
+TEXDIR=tex
+OUT=output
+
+local:
+	cd $(SRCDIR); ./get_cv.py && open ../$(PDF)
 
 all:
-	cd src; ./get_cv.py
+	make update
+	make index
+	make readme
+	open $(PDF)
 
 update:
-	cd src; ./get_cv.py --update
+	cd $(SRCDIR); ./get_cv.py --update
+
+parse:
+	cd $(SRCDIR); ./get_cv.py --parse
+
+compact:
+	cd $(SRCDIR); ./get_cv.py --compact
 
 index:
-	cd .data; pandoc -s --metadata title="CV" -i .temp.tex -f latex -t html -o ../output/index.html
+	cd $(DATADIR); pandoc -s --metadata title="CV" -i $(TMP).tex -f latex -t html -o ../$(OUT)/index.html
 
 readme:
-	cd .data; pandoc -s -i .temp.tex -f latex -t gfm -o ../output/README.md
-
+	cd $(DATADIR); pandoc -s -i $(TMP).tex -f latex -t gfm -o ../$(OUT)/README.md
 
 project:
-	rm .data/project.zip
-	cd tex; zip ../.data/project.zip *
+	rm $(DATADIR)/project.zip
+	cd $(TEXDIR); zip ../$(DATADIR)/project.zip *
+
+pdf:
+	cd $(DATADIR); pdflatex --interaction=nonstopmode $(TMP).tex
+	open $(PDF)
+
+new:
+	cp $(PDF) $(OUT)/temp-new.pdf
+	cp $(DATADIR)/$(TMP).tex $(OUT)/temp-new.tex
+	cp $(DATADIR)/res.cls $(OUT)
