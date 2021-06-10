@@ -28,6 +28,7 @@ compact:
 release:
 	cd $(DATADIR); pandoc $(PDCFLAGS) -i $(TMP).tex -f latex -t html -o ../index.html
 	pandoc -i index.html -f html -t gfm -o README.md
+	pandoc -i index.html -f html -t docx -o $(OUT)/cv.docx
 
 project:
 	rm $(DATADIR)/project.zip

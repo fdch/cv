@@ -166,7 +166,7 @@ Networked Performance Music. Sonification. Database Music.
 
 <!-- -->
 
--   **Lorenz Variations.** Cube Fest at Virginia Tech - Blacksburgh, VA
+-   **Lorenz Variations.** Cube Fest at Virginia Tech - Blacksburg, VA
     (USA). 03 August 2017.
 
 <!-- -->
@@ -202,21 +202,24 @@ Networked Performance Music. Sonification. Database Music.
 
 <!-- -->
 
--   **Sonic Arts Ensemble and Atelier Avant Austria present "Virtuoso
-    Chances".** Andreas Weixler, Se-Lien Chuang, Marc Ainger, Ann
+-   **Sonic Arts Ensemble and Atelier Avant Austria present “Virtuoso
+    Chances”.** Andreas Weixler, Se-Lien Chuang, Marc Ainger, Ann
     Stimmson, and the Sonic Arts Ensemble. Pure Data, joyosc, and a PS4
     Controller. ACCAD Motion Lab - Columbus, OH (USA). 23
     September 2019.
 
 ## Hijos de Distinta Madre
 
--   **CyberJam en La Cupula.** Pure Data, joyosc, and a PS4 Controller.
-    La Cupula Galeria de Arte - Córdoba (Argentina). 09 May 2020.
+-   **Thanks to Federico Ragessi and Franco Pellini (Hijos de Distinta
+    Madre), Marmotas Dreams (Berenice Llorens and Constanza Pellicci) ,
+    and Jorge Castro (fisterni @ La Cúpula) for an amazing performance
+    and night..** Pure Data, joyosc, and a PS4 Controller. La Cúpula
+    Galería de Arte - Córdoba (Argentina). 09 May 2020.
 
 <!-- -->
 
 -   **HDDM + ffddcchh + Marmotas Dreams & friends.** Pure Data, joyosc,
-    and a PS4 Controller. La Cupula Galeria de Arte - Córdoba
+    and a PS4 Controller. La Cúpula Galería de Arte - Córdoba
     (Argentina). 21 December 2019.
 
 <!-- -->
@@ -227,8 +230,8 @@ Networked Performance Music. Sonification. Database Music.
 <!-- -->
 
 -   **Mermetom + Fede Camara Halac.** Mermetom (Gustavo Alcaraz & Vero
-    Guevara) and . Pure Data, joyosc, and a PS4 Controller. La Cupula
-    Galeria de Arte - Córdoba (Argentina). 08 December 2019.
+    Guevara) and . Pure Data, joyosc, and a PS4 Controller. La Cúpula
+    Galería de Arte - Córdoba (Argentina). 08 December 2019.
 
 ## Live Video and Electronics
 
@@ -276,7 +279,7 @@ Networked Performance Music. Sonification. Database Music.
 -   **Momenta Quartet Plays NYU Composers.** Momenta Quartet. Laptop.
     NYU Silver Center r.220 - New York City, NY (USA). 21 April 2014.
 
-## LEIM Ensamble
+## LEIM Ensemble
 
 -   **Ciclo Experimentalia.** Piano, Analog Synthesizer. Centro Cultural
     España Córdoba - Córdoba (Argentina). 10 August 2012.
@@ -298,7 +301,7 @@ Networked Performance Music. Sonification. Database Music.
 
 <!-- -->
 
--   **Micro-Symposio de Análisis Musical.** Piano, Analog Synthesizer.
+-   **Micro-Simposio de Análisis Musical.** Piano, Analog Synthesizer.
     Facultad de Artes, UNC - Córdoba (Argentina). 12 September 2011.
 
 <!-- -->
@@ -337,7 +340,7 @@ Networked Performance Music. Sonification. Database Music.
 -   **Performances and Workshops.** Piano, Analog Synthesizer. LEIM
     Facultad de Artes - Córdoba (Argentina). 01 January 2009.
 
-## Proyecto \[Red\] Ensamble
+## Proyecto \[Red\] Ensemble
 
 -   **Canon.** Midi controller and Laptop. Centro Cultural Graciela
     Carena - New York City, NY (USA). 06 August 2016.
@@ -379,7 +382,7 @@ Networked Performance Music. Sonification. Database Music.
 
 <!-- -->
 
--   **Micro-Symposium de Análisis Musical.** Piano. Aula Magna de la
+-   **Micro-Simposio de Análisis Musical.** Piano. Aula Magna de la
     Facultad de Artes - Córdoba (Argentina). 10 September 2011.
 
 <!-- -->
@@ -419,8 +422,8 @@ Networked Performance Music. Sonification. Database Music.
 
 <!-- -->
 
--   **Guest Pianist.** Orquesta Sinfónica de Rio Ceballos. Piano. Teatro
-    Municipal - Rio Ceballos, CBA (Argentina). 12 March 2010.
+-   **Guest Pianist.** Orquesta Sinfónica de Río Ceballos. Piano. Teatro
+    Municipal - Río Ceballos, CBA (Argentina). 12 March 2010.
 
 # Teaching
 
@@ -470,22 +473,22 @@ Networked Performance Music. Sonification. Database Music.
 <!-- -->
 
 -   **Composición Musical I.** Universidad Nacional de Córdoba. Facultad
-    de Artes. Cordoba, CBA (ARG).
+    de Artes. Córdoba, CBA (ARG).
 
 <!-- -->
 
 -   **Composición Musical I.** Universidad Nacional de Córdoba. Facultad
-    de Artes. Cordoba, CBA (ARG).
+    de Artes. Córdoba, CBA (ARG).
 
 <!-- -->
 
 -   **Audioperceptiva I.** Universidad Nacional de Córdoba. Escuela de
-    Artes - FFyH. Cordoba, CBA (ARG).
+    Artes - FFyH. Córdoba, CBA (ARG).
 
 <!-- -->
 
 -   **Audioperceptiva I.** Universidad Nacional de Córdoba. Escuela de
-    Artes - FFyH. Cordoba, CBA (ARG).
+    Artes - FFyH. Córdoba, CBA (ARG).
 
 # Artistic Collaborations
 
@@ -509,7 +512,7 @@ Networked Performance Music. Sonification. Database Music.
 
 <!-- -->
 
--   **Hearing the Self: A Spectral Experience.** Xuhui Art Muesum.
+-   **Hearing the Self: A Spectral Experience.** Xuhui Art Museum.
     Matias Delgadino and Lucia Simonelli. Shanghai (China).
 
 ## Theatre
@@ -520,7 +523,7 @@ Networked Performance Music. Sonification. Database Music.
 <!-- -->
 
 -   **Itinerante: un Viaje a Través de Los Sentidos.** Sindicato de
-    Vendendores de Diarios y Revistas. Agustina Muñoz. Córdoba
+    Vendedores de Diarios y Revistas. Agustina Muñoz. Córdoba
     (Argentina).
 
 <!-- -->
@@ -536,7 +539,7 @@ Networked Performance Music. Sonification. Database Music.
 ## Other Collaborations
 
 -   **Los Chicos de Abril (Opera).** Teatro Municipal de Río Cuarto.
-    Luis Perez, Pablo Behm, and Franco Pellini. Rio Cuarto , CBA
+    Luis Perez, Pablo Behm, and Franco Pellini. Río Cuarto , CBA
     (Argentina).
 
 <!-- -->
@@ -558,7 +561,7 @@ Networked Performance Music. Sonification. Database Music.
 
 <!-- -->
 
--   **Festival Atemporaneas.** Reviewer. Installation, Audiovisual, and
+-   **Festival Atemporáneas.** Reviewer. Installation, Audiovisual, and
     Sound Art submissions. Buenos Aires (Argentina). 2019-2020.
 
 <!-- -->
@@ -594,8 +597,7 @@ Networked Performance Music. Sonification. Database Music.
 # Other Skills
 
 -   **Spanish** (Native) **English** (Advanced) **French**
-    (Intermediate) **German** ( Beginnder, A2 Level. Currently
-    Studying.)
+    (Intermediate) **German** ( Beginner, A2 Level. Currently Studying.)
 
 -   **Pure Data** (Expert) **Python** (Advanced: Numpy, Scipy,
     tensorflow, librosa) **JavaScript** (Advanced: Web Audio API,
