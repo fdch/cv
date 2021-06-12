@@ -1,6 +1,22 @@
-<div class="resume">
+![image](/Users/fd/Documents/cv/data/profil.jpg)
+
+# Federico Nicolás Cámara Halac
+
+-   \+ 1 (614) 440-7529
+
+-   [camarahalac.1@osu.edu](camarahalac.1@osu.edu)
+
+-   <https://fdch.github.io>
+
+-   349C Sullivant Hall,  
+    1813 North High Street,  
+    Columbus, OH 43210
+
+-   8th May 1988, Córdoba, Argentina
 
 # Education
+
+------------------------------------------------------------------------
 
 ## PhD
 
@@ -22,6 +38,8 @@
 
 # Professional Appointments
 
+------------------------------------------------------------------------
+
 ## Postdoctorate
 
 -   **Postdoctoral Scholar in Immersive Audio, The Ohio State
@@ -33,9 +51,11 @@
 
 Computer Music. Spatial Audio. Immersive Sound. Machine Learning.
 Digital Signal Processing. Algorithmic Composition. Computer Vision.
-Networked Performance Music. Sonification. Database Music.
+Networked Music Performance. Sonification. Database Music.
 
 # Publications
+
+------------------------------------------------------------------------
 
 ## Conference Proceedings
 
@@ -110,6 +130,8 @@ Networked Performance Music. Sonification. Database Music.
 
 # Awards and Honors
 
+------------------------------------------------------------------------
+
 ## Fellowships
 
 -   **Dean’s Dissertation.** Graduate School of Arts and Sciences (New
@@ -158,6 +180,8 @@ Networked Performance Music. Sonification. Database Music.
     Montréal). Montréal (Canada).
 
 # Performances
+
+------------------------------------------------------------------------
 
 ## Solo
 
@@ -427,6 +451,8 @@ Networked Performance Music. Sonification. Database Music.
 
 # Teaching
 
+------------------------------------------------------------------------
+
 ## Professor
 
 -   **Computational Musicology 8824.** The Ohio State University. School
@@ -492,7 +518,9 @@ Networked Performance Music. Sonification. Database Music.
 
 # Artistic Collaborations
 
-## Networked Performance Music
+------------------------------------------------------------------------
+
+## Networked Music Performance
 
 -   **1002: A Networked Music Performance with CollidePd** (ongoing).
     International Computer Music Conference. Federico Ragessi. Córdoba
@@ -554,6 +582,8 @@ Networked Performance Music. Sonification. Database Music.
 
 # Service
 
+------------------------------------------------------------------------
+
 ## Disciplinary Service
 
 -   **New Interfaces for Musical Expression** (ongoing). Reviewer. Paper
@@ -596,6 +626,8 @@ Networked Performance Music. Sonification. Database Music.
 
 # Other Skills
 
+------------------------------------------------------------------------
+
 -   **Spanish** (Native) **English** (Advanced) **French**
     (Intermediate) **German** ( Beginner, A2 Level. Currently Studying.)
 
@@ -608,5 +640,3 @@ Networked Performance Music. Sonification. Database Music.
 
 -   **Max/MSP.** **Csound.** **Jacktrip.** **Audacity.** **REAPER.**
     **Ableton Live.** **Adobe Creative Suite.**
-
-</div>
