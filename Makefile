@@ -55,9 +55,10 @@ compact:
 release:
 	cd $(DATADIR); pandoc $(PDCFLAGS) -i $(TMP).tex -f latex -t html -o ../index.html
 	pandoc -i index.html -f html -t gfm -o README.md
-	pandoc -i index.html -f html -t docx -o $(OUT)/cv.docx
+	pandoc -i index.html -f html -t docx -o $(OUT)/cv-latest.docx
 	sed -ie 's|/Users/fd/Documents/cv/img/profil.jpg|img/profil.jpg|g' index.html
 	rm index.htmle 
+	cp $(PDF) $(OUT)/cv-latest.pdf
 
 project:
 	rm $(DATADIR)/project.zip
