@@ -773,8 +773,8 @@
 
 \usepackage{titlesec}
 
-\titlespacing\section{0pt}{0pt}{0pt}
-\titlespacing\subsection{0pt}{0pt}{0pt}
+\titlespacing\section{0pt}{-5pt}{0pt}
+\titlespacing\subsection{0pt}{-5pt}{0pt}
 
 % \let\section\@@section
 % \let\subsection\@@subsection

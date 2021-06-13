@@ -61,7 +61,7 @@ pdf:
 new:
 	cp $(PDF) $(OUT)/temp-new.pdf
 	cp $(DATADIR)/$(TMP).tex $(OUT)/temp-new.tex
-	cp $(DATADIR)/res.cls $(OUT)
+# 	cp $(DATADIR)/res.cls $(OUT)
 
 push:
 	git add . 

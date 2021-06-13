@@ -2,9 +2,9 @@ import json
 from pathlib import Path
 import requests
 
-MAX_SHEETS=8
-ENCODING='utf8'
-sheet_data = []
+MAX_SHEETS     = 9     # range of sheets to pull from (non inclusive)
+ENCODING       = 'utf8'
+sheet_data     = []
 
 def downloadSheet(sheet_id, target, maxsheets=MAX_SHEETS):
 

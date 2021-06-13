@@ -14,6 +14,32 @@
 
 -   8th May 1988, Córdoba, Argentina
 
+# Professional Appointments
+
+------------------------------------------------------------------------
+
+## Postdoctorate
+
+-   **Postdoctoral Scholar in Immersive Audio, The Ohio State
+    University.** Global Arts and Humanities Discovery Theme, School of
+    Music, Advanced Computing Center for the Arts and Design. Columbus,
+    OH (USA). 2019-2021.
+
+## Academic
+
+-   **Course Assistant, New York University.** Faculty of Arts and
+    Science. New York (USA).
+
+<!-- -->
+
+-   **Teaching Assistant, New York University.** Faculty of Arts and
+    Science. New York (USA). 2014-2015.
+
+<!-- -->
+
+-   **Teaching Assistant, Universidad Nacional de Córdoba.** Facultad de
+    Artes. Córdoba (Argentina). 2007-2010.
+
 # Education
 
 ------------------------------------------------------------------------
@@ -36,22 +62,13 @@
     Poblete, Claudio Bazán, and Pablo de Giusto (Bachelor and Masters
     equivalence). Córdoba (Argentina). Mar 2006 - Jul 2012.
 
-# Professional Appointments
+# Research Interests
 
 ------------------------------------------------------------------------
 
-## Postdoctorate
-
--   **Postdoctoral Scholar in Immersive Audio, The Ohio State
-    University.** Global Arts and Humanities Discovery Theme, School of
-    Music, Advanced Computing Center for the Arts and Design. Columbus,
-    OH (USA). 2019-2021.
-
-# Research Interests
-
-Computer Music. Spatial Audio. Immersive Sound. Machine Learning.
-Digital Signal Processing. Algorithmic Composition. Computer Vision.
-Networked Music Performance. Sonification. Database Music.
+> Computer Music. Spatial Audio. Immersive Sound. Machine Learning.
+> Digital Signal Processing. Algorithmic Composition. Computer Vision.
+> Networked Music Performance. Sonification. Database Music
 
 # Publications
 
@@ -59,17 +76,16 @@ Networked Music Performance. Sonification. Database Music.
 
 ## Conference Proceedings
 
--   **Visual Cues as an Aid in the Auditory Stream Segregation of
-    Music.** International Conference on Music Perception and Cognition
-    - European Society for the Cognitive Sciences of Music. Samantha
-    Burgess, Federico Camara Halac, and Daniel Shanahan. 28
-    September 2021.
-
-<!-- -->
-
 -   **‘The Woods:’ A Mixed Reality Two-Player Cooperative Game.**
     SIGGRAPH. Scott Swearingen, Kyoung Swearingen, Federico Camara
     Halac, Sruthi Ammannagari, and Matt Hall. 09 August 2021.
+
+<!-- -->
+
+-   **Visual Cues as an Aid in the Auditory Stream Segregation of
+    Music.** International Conference on Music Perception and Cognition
+    - European Society for the Cognitive Sciences of Music. Samantha
+    Burgess, Federico Camara Halac, and Daniel Shanahan. 28 July 2021.
 
 <!-- -->
 
@@ -91,42 +107,48 @@ Networked Music Performance. Sonification. Database Music.
     International Computer Music Conference (Accepted but not
     presented). 11 October 2017.
 
+## Other Publications
+
+-   **‘For Young Years:’ A Response To Elsa Justel’s Marelle.** Open
+    Space Magazine - Issue 21 . 10 August 2017.
+
+# Presentations
+
+------------------------------------------------------------------------
+
 ## Conference Poster
 
 -   **PathoSonic: Performing Sound In Virtual Reality Feature Space.**
-    New Interfaces for Musical Expression. Federico Camara Halac and
-    Shadrick Addy. 24 January 2020.
+    New Interfaces for Musical Expression. Birmingham (UK). 24
+    January 2020.
 
 ## Conference Panel
 
 -   **\[clone fd\_dacout\]: real-time massively multichannel
     spatialization in Pure Data.** Jornadas de Informática y Electrónica
-    Musical - Espacios Sonoros. 05 March 2020.
+    Musical - Espacios Sonoros. Madrid (Spain). 05 March 2020.
 
 ## PhD Dissertation Defense
 
 -   **Database Music: A History, Technology, and Aesthetics of the
-    Database in Music Composition.** New York University. 06 May 2019.
+    Database in Music Composition.** New York University. New York
+    (USA). 06 May 2019.
 
-## Guest Speaker
-
--   **A History of the Database in Computer Music.** Festival
-    Atemporáneas. 13 September 2021.
-
-<!-- -->
+## Invited Talks
 
 -   **Composing Database: Opening A Space For The Concept Of An Anarchic
-    Unwork Of Art..** Delian Academy for New Music. 11 June 2018.
+    Unwork Of Art.** Delian Academy for New Music. Mykonos (Greece). 11
+    June 2018.
 
 <!-- -->
 
 -   **Inopera: A Multimedia Work for Loadbang and Pure Data.**
-    Universidad Nacional de Córdoba. 15 June 2016.
+    Universidad Nacional de Córdoba. Córdoba (Argentina). 15 June 2016.
 
-## Other Publications
+<!-- -->
 
--   **‘For Young Years:’ A Response To Elsa Justel’s Marelle.** Open
-    Space Magazine - Issue 21 . 10 August 2017.
+-   **A History of the Database in Computer Music.** Festival
+    Atemporáneas. Buenos Aires (Argentina). 13 September 2021.
 
 # Awards and Honors
 

@@ -8,7 +8,6 @@ from pylatex.utils import NoEscape, bold, italic
 from pathlib import Path
 
 MAX_YEAR_LIMIT = 20     # more recent years (with compact flag)
-MAX_SHEETS     = 8     # range of sheets to pull from (non inclusive)
 NARRATIVE      = False # disable narrative by default (compact==true)
 ENCODING       ='utf8' # encoding for writing/readiing json files
 DATE           = datetime.date.today().ctime().split(' ')
@@ -320,7 +319,7 @@ if __name__ == '__main__':
                             "subheader":subheader,
                             "year":i['year']
                         }
-                        if abs(int(c_y)-YEAR) <= MAX_YEAR_LIMIT:
+                        if abs(int(c_y)-int(YEAR)) <= MAX_YEAR_LIMIT:
                             writeEntry(doc, dateit, c_entry)
                         
                         # this accounts for title repetition
@@ -352,11 +351,12 @@ if __name__ == '__main__':
                         #                 p_entry[k] += ' and ' + c_entry[k]
                         #         merge=1
                         #         continue
-                if "work" in sheet:
+                if "education" in sheet:
+                    doc.append(Command("pagebreak"))
                     with doc.create(Section("Research Interests")):
+                        doc.append(Command('hrule'))
                         with doc.create(Quote()):
                             doc.append(". ".join(data["research"]))
-                    doc.append(Command("pagebreak"))
                 # end subsection loop
             # end subsections
         # end sections
