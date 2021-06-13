@@ -1,4 +1,6 @@
-![image](/Users/fd/Documents/cv/data/profil.jpg)
+Federico Nicolás Cámara Halac
+
+![image](/Users/fd/Documents/cv/img/profil.jpg)
 
 # Federico Nicolás Cámara Halac
 
@@ -25,17 +27,16 @@
     Music, Advanced Computing Center for the Arts and Design. Columbus,
     OH (USA). 2019-2021.
 
-## Academic
+## Graduate
 
 -   **Course Assistant, New York University.** Faculty of Arts and
     Science. New York (USA).
 
 <!-- -->
 
--   **Teaching Assistant, New York University.** Faculty of Arts and
-    Science. New York (USA). 2014-2015.
+-   **Teaching Assistant, New York University.** 2014-2015.
 
-<!-- -->
+## Undergraduate
 
 -   **Teaching Assistant, Universidad Nacional de Córdoba.** Facultad de
     Artes. Córdoba (Argentina). 2007-2010.
@@ -162,12 +163,7 @@
 <!-- -->
 
 -   **Graduate Research Initiative.** Provost (New York University).
-    Florence (Italy).
-
-<!-- -->
-
--   **Graduate Research Initiative.** Provost (New York University).
-    Paris (France).
+    Florence (Italy), Paris (France). 2018, 2017.
 
 <!-- -->
 
@@ -176,17 +172,16 @@
 
 ## Prizes
 
--   **"Ciudad Invertida" (Selected Works).** Elsa Justel (Fundación
+-   **“Ciudad Invertida” (Selected Works).** Elsa Justel (Fundación
     Destellos). Mar del Plata (Argentina).
 
 <!-- -->
 
--   **"Venas" (Selected Works) .** Elsa Justel (Fundación Destellos).
-    Mar del Plata (Argentina).
+-   **“Venas” (Selected Works).**
 
 <!-- -->
 
--   **"Lagos" (Orchestral Premiere).** Orquesta Sinfónica de la UNC -
+-   **“Lagos” (Orchestral Premiere).** Orquesta Sinfónica de la UNC -
     Músicas en Dirigible (Universidad Nacional de Córdoba). Córdoba
     (Argentina).
 
@@ -201,276 +196,6 @@
     Internacionales (Universidad Nacional de Córdoba and Université de
     Montréal). Montréal (Canada).
 
-# Performances
-
-------------------------------------------------------------------------
-
-## Solo
-
--   **Concierto de arte sonoro en Espacio B.** Ricardo Barney & Pedro
-    Fraguela. Laptop. Espacio B - Madrid (Spain). 04 March 2020.
-
-<!-- -->
-
--   **Lorenz Variations.** Cube Fest at Virginia Tech - Blacksburg, VA
-    (USA). 03 August 2017.
-
-<!-- -->
-
--   **Opening Portals.** Jessica Rosen. Bookentiometers. ShapeShifter
-    Lab in Brooklyn - New York City, NY (USA). 11 October 2016.
-
-## The Sonic Arts Ensemble at OSU
-
--   **8th Music and/as Process Conference: Networked Collaborative
-    Processes 2021.** Thornblower. Netty McNetface - Columbus, OH (USA).
-    26 June 2021.
-
-<!-- -->
-
--   **SEAMUS (TWELVE).** Thornblower. CCRMA - Stanford, CA (USA). 23
-    April 2021.
-
-<!-- -->
-
--   **Earth Day Art Model 2021.** Thornblower. EDAM Festival -
-    Indianapolis, IA (USA). 22 April 2021.
-
-<!-- -->
-
--   **Sonic Arts Ensemble Live-Stream Performance.** Thornblower. Netty
-    McNetface - Columbus, OH (USA). 06 April 2021.
-
-<!-- -->
-
--   **Into The Multiverse.** Thornblower. The Wexner Center for the Arts
-    - Columbus, OH (USA). 20 October 2020.
-
-<!-- -->
-
--   **Sonic Arts Ensemble and Atelier Avant Austria present “Virtuoso
-    Chances”.** Andreas Weixler, Se-Lien Chuang, Marc Ainger, Ann
-    Stimmson, and the Sonic Arts Ensemble. Pure Data, joyosc, and a PS4
-    Controller. ACCAD Motion Lab - Columbus, OH (USA). 23
-    September 2019.
-
-## Hijos de Distinta Madre
-
--   **Thanks to Federico Ragessi and Franco Pellini (Hijos de Distinta
-    Madre), Marmotas Dreams (Berenice Llorens and Constanza Pellicci) ,
-    and Jorge Castro (fisterni @ La Cúpula) for an amazing performance
-    and night..** Pure Data, joyosc, and a PS4 Controller. La Cúpula
-    Galería de Arte - Córdoba (Argentina). 09 May 2020.
-
-<!-- -->
-
--   **HDDM + ffddcchh + Marmotas Dreams & friends.** Pure Data, joyosc,
-    and a PS4 Controller. La Cúpula Galería de Arte - Córdoba
-    (Argentina). 21 December 2019.
-
-<!-- -->
-
--   **HDDM + ffddcchh.** Pure Data, joyosc, and a PS4 Controller. Casa
-    Mandarina - Córdoba (Argentina). 19 December 2019.
-
-<!-- -->
-
--   **Mermetom + Fede Camara Halac.** Mermetom (Gustavo Alcaraz & Vero
-    Guevara) and . Pure Data, joyosc, and a PS4 Controller. La Cúpula
-    Galería de Arte - Córdoba (Argentina). 08 December 2019.
-
-## Live Video and Electronics
-
--   **Electroacoustic Improvisations.** Joan Bages i Rubi, Bernardo
-    Barros, Kyle Motl, and Joan Marti Frasquier,. Midi controller and
-    Laptop. NYU Waverly Labs r.220 - New York City, NY (USA). 19
-    June 2017.
-
-<!-- -->
-
--   **a.le.a.** Talea Ensemble. Midi controller and networked Laptops.
-    The Dimenna Center for Classical Music - New York City, NY (USA). 07
-    April 2017.
-
-<!-- -->
-
--   **Ciudad Invertida.** RAGE THORMBONES. Laptop. ShapeShifter Lab -
-    New York City, NY (USA). 22 November 2016.
-
-<!-- -->
-
--   **sk.** TAK Ensemble. Laptop. Waverly Labs, r.220 - New York City,
-    NY (USA). 29 September 2016.
-
-<!-- -->
-
--   **INOPERA.** Loadbang Ensemble. Midi controller and Laptop. The
-    Dimenna Center for Classical Music - New York City, NY (USA). 20
-    April 2016.
-
-<!-- -->
-
--   **Ciudad Invertida.** Rocío Elizalde y Manuel Pastrana. Laptop.
-    Bienal 3 en Composición e Investigación Musical - Córdoba
-    (Argentina). 20 August 2015.
-
-<!-- -->
-
--   **Mise-En at German House.** Samuel Marques. Pure Data live
-    processing. German Consulate - New York City, NY (USA). 06
-    February 2015.
-
-<!-- -->
-
--   **Momenta Quartet Plays NYU Composers.** Momenta Quartet. Laptop.
-    NYU Silver Center r.220 - New York City, NY (USA). 21 April 2014.
-
-## LEIM Ensemble
-
--   **Ciclo Experimentalia.** Piano, Analog Synthesizer. Centro Cultural
-    España Córdoba - Córdoba (Argentina). 10 August 2012.
-
-<!-- -->
-
--   **Summer Concert.** Piano, Analog Synthesizer. Auditorio CePIA -
-    Córdoba (Argentina). 10 November 2011.
-
-<!-- -->
-
--   **Teatro Acústico.** Piano, Analog Synthesizer. Facultad de Artes,
-    UNC - Córdoba (Argentina). 02 October 2011.
-
-<!-- -->
-
--   **Ciclo Contengo-Arte.** Piano, Analog Synthesizer. Instituto
-    Italiano de Cultura - Córdoba (Argentina). 14 September 2011.
-
-<!-- -->
-
--   **Micro-Simposio de Análisis Musical.** Piano, Analog Synthesizer.
-    Facultad de Artes, UNC - Córdoba (Argentina). 12 September 2011.
-
-<!-- -->
-
--   **Winter Concert.** Piano, Analog Synthesizer. Auditorio CePIA -
-    Córdoba (Argentina). 23 August 2011.
-
-<!-- -->
-
--   **Ciclo Experimentalia.** Piano, Analog Synthesizer. Centro Cultural
-    España Córdoba - Córdoba (Argentina). 20 June 2011.
-
-<!-- -->
-
--   **TSONAMI.** Piano, Analog Synthesizer. Centro Cultural Recoleta -
-    Buenos Aires (Argentina). 10 May 2011.
-
-<!-- -->
-
--   **Nosocomio.** Piano, Analog Synthesizer. Centro Cultural España
-    Córdoba - Córdoba (Argentina). 12 December 2010.
-
-<!-- -->
-
--   **Summer Concert.** Piano, Analog Synthesizer. Auditorio CePIA -
-    Córdoba (Argentina). 14 November 2010.
-
-<!-- -->
-
--   **1st International Biennial of Music Composition and Education.**
-    Piano, Analog Synthesizer. Auditorio CePIA - Córdoba (Argentina). 14
-    September 2010.
-
-<!-- -->
-
--   **Performances and Workshops.** Piano, Analog Synthesizer. LEIM
-    Facultad de Artes - Córdoba (Argentina). 01 January 2009.
-
-## Proyecto \[Red\] Ensemble
-
--   **Canon.** Midi controller and Laptop. Centro Cultural Graciela
-    Carena - New York City, NY (USA). 06 August 2016.
-
-<!-- -->
-
--   **Concert.** Piano. Auditorio CePIA - Córdoba (Argentina). 12
-    November 2012.
-
-<!-- -->
-
--   **Aniversario de la Facultad de Artes.** Piano, Trumpet, Midi
-    Controller. Auditorio CePIA - Córdoba (Argentina). 01 November 2012.
-
-<!-- -->
-
--   **John Cage Festival.** Piano. Auditorio CePIA - Córdoba
-    (Argentina). 05 September 2012.
-
-<!-- -->
-
--   **Concert at B2CIM.** Piano, Trumpet, Midi Controller. Auditorio
-    CePIA - Córdoba (Argentina). 23 August 2012.
-
-<!-- -->
-
--   **Concierto de Alquimistas.** Piano. Aula Magna FCEFyN - Córdoba
-    (Argentina). 29 June 2012.
-
-<!-- -->
-
--   **Concierto Final de Tesis.** Piano. Auditorio CePIA - Córdoba
-    (Argentina). 12 June 2012.
-
-<!-- -->
-
--   **Congreso de Ciencias Humana.** Electric Guitar. Escuela Monserrat
-    - Córdoba (Argentina). 20 October 2011.
-
-<!-- -->
-
--   **Micro-Simposio de Análisis Musical.** Piano. Aula Magna de la
-    Facultad de Artes - Córdoba (Argentina). 10 September 2011.
-
-<!-- -->
-
--   **Arte Forum 2: Homage to Oscar Bazán.** Piano. Auditorio CePIA -
-    Córdoba (Argentina). 18 August 2011.
-
-<!-- -->
-
--   **Winter Concert.** Electric Guitar, Piano. Auditorio CePIA -
-    Córdoba (Argentina). 10 July 2011.
-
-<!-- -->
-
--   **Summer Concert.** Conductor. Auditorio CePIA - Córdoba
-    (Argentina). 20 November 2010.
-
-<!-- -->
-
--   **Ciclo La Máquina de Tiempo.** Trumpet. Centro Cultural España
-    Córdoba - Córdoba (Argentina). 02 July 2010.
-
-## Other Roles
-
--   **CLIMATE GATHERING.** Norah Zuniga Shaw. Max/MSP and Ipad. Movement
-    Lab at Barnard College - New York City, NY (USA). 15 January 2020.
-
-<!-- -->
-
--   **Guest Pianist.** LAMOI. Piano. Paseo del Buen Pastor - Córdoba
-    (Argentina). 10 March 2012.
-
-<!-- -->
-
--   **Inserto Beat.** Luisina Couto, Pablo Behm. Guitar. Cineclub
-    Municipal Hugo del Carril - Córdoba (Argentina). 18 September 2010.
-
-<!-- -->
-
--   **Guest Pianist.** Orquesta Sinfónica de Río Ceballos. Piano. Teatro
-    Municipal - Río Ceballos, CBA (Argentina). 12 March 2010.
-
 # Teaching
 
 ------------------------------------------------------------------------
@@ -482,26 +207,13 @@
 
 <!-- -->
 
--   **Sonic Arts Ensemble.** The Ohio State University. Advanced
-    Computing Center for the Arts and Design. Columbus, OH (USA).
-    Fall 2021.
-
-<!-- -->
-
--   **Sonic Arts Ensemble.** The Ohio State University. Advanced
-    Computing Center for the Arts and Design. Columbus, OH (USA).
-    Spring 2020.
-
-<!-- -->
-
--   **Sonic Arts Ensemble.** The Ohio State University. Advanced
-    Computing Center for the Arts and Design. Columbus, OH (USA).
-    Fall 2019.
+-   **Sonic Arts Ensemble.** Advanced Computing Center for the Arts and
+    Design. Fall 2021, Spring 2020, Fall 2019.
 
 <!-- -->
 
 -   **Harmony and Counterpoint I.** New York University. Faculty of Arts
-    and Science. New York, NY (USA). Fall 2015.
+    and Science. New York, NY (USA). Fall 2015, Fall 2014.
 
 ## Course Assistant
 
@@ -515,28 +227,12 @@
 
 <!-- -->
 
--   **Harmony and Counterpoint I.** New York University. Faculty of Arts
-    and Science. New York, NY (USA). Fall 2014.
-
-<!-- -->
-
 -   **Composición Musical I.** Universidad Nacional de Córdoba. Facultad
-    de Artes. Córdoba, CBA (ARG).
+    de Artes. Córdoba, CBA (ARG). 2010, 2009.
 
 <!-- -->
 
--   **Composición Musical I.** Universidad Nacional de Córdoba. Facultad
-    de Artes. Córdoba, CBA (ARG).
-
-<!-- -->
-
--   **Audioperceptiva I.** Universidad Nacional de Córdoba. Escuela de
-    Artes - FFyH. Córdoba, CBA (ARG).
-
-<!-- -->
-
--   **Audioperceptiva I.** Universidad Nacional de Córdoba. Escuela de
-    Artes - FFyH. Córdoba, CBA (ARG).
+-   **Audioperceptiva I.** Escuela de Artes - FFyH. 2008, 2007.
 
 # Artistic Collaborations
 
@@ -573,8 +269,7 @@
 <!-- -->
 
 -   **Itinerante: un Viaje a Través de Los Sentidos.** Sindicato de
-    Vendedores de Diarios y Revistas. Agustina Muñoz. Córdoba
-    (Argentina).
+    Vendedores de Diarios y Revistas. Agustina Muñoz.
 
 <!-- -->
 
@@ -584,7 +279,6 @@
 <!-- -->
 
 -   **Inserto Beat.** Cineclub Municipal Hugo del Carril. Luisina Couto.
-    Córdoba (Argentina).
 
 ## Other Collaborations
 
@@ -600,7 +294,7 @@
 <!-- -->
 
 -   **Alicia en el País de las Maravillas (Dance).** Teatro del
-    Libertador San Martín. José Halac. Córdoba (Argentina).
+    Libertador San Martín. José Halac.
 
 # Service
 
@@ -613,8 +307,8 @@
 
 <!-- -->
 
--   **Festival Atemporáneas.** Reviewer. Installation, Audiovisual, and
-    Sound Art submissions. Buenos Aires (Argentina). 2019-2020.
+-   **Festival Atemporáneas.** Installation, Audiovisual, and Sound Art
+    submissions. Buenos Aires (Argentina). 2019-2020.
 
 <!-- -->
 
@@ -623,8 +317,8 @@
 
 <!-- -->
 
--   **International Computer Music Conference** (ongoing). Reviewer.
-    Installations and Music Submissions. New York City (USA).
+-   **International Computer Music Conference** (ongoing). Installations
+    and Music Submissions.
 
 <!-- -->
 
@@ -633,8 +327,8 @@
 
 <!-- -->
 
--   **Bienal Composición Córdoba.** Organizer. Website and Conference
-    Program. Córdoba (Argentina). 2010-2015.
+-   **Bienal Composición Córdoba.** Website and Conference Program.
+    Córdoba (Argentina). 2010-2015.
 
 ## University Service
 
@@ -643,22 +337,326 @@
 
 <!-- -->
 
--   **Proyecto \[Red\] Ensamble.** Founding Member. Website and Program.
-    Córdoba (Argentina). 2010-2015.
+-   **Proyecto \[Red\] Ensamble.** Website and Program. Córdoba
+    (Argentina). 2010-2015.
+
+# Performances
+
+------------------------------------------------------------------------
+
+## Solo
+
+-   **“Untitled 2”.** “Concierto de Arte Sonoro” with Ricardo Barney and
+    Pedro Fraguela. Laptop at Espacio B. Madrid (Spain). 04 March 2020.
+
+<!-- -->
+
+-   **“Lorenz Variations”.** Computer and speakers at Cube Fest at
+    Virginia Tech. Blacksburg, VA (USA). 03 August 2017.
+
+<!-- -->
+
+-   **“Bookentiometers”.** “Opening Portals” with Jessica Rosen.
+    Bookentiometers at ShapeShifter Lab in Brooklyn. New York City, NY
+    (USA). 11 October 2016.
+
+## The Sonic Arts Ensemble at OSU
+
+-   **S.A.E. Livestream.** Thornblower at 8th Music and/as Process
+    Conference: Networked Collaborative Processes 2021. Columbus, OH
+    (USA). 26 June 2021.
+
+<!-- -->
+
+-   **Seamus (Twelve).** Thornblower at CCRMA - Jacktrip. Stanford, CA
+    (USA). 23 April 2021.
+
+<!-- -->
+
+-   **Earth Day Art Model 2021.** Thornblower at EDAM Festival.
+    Indianapolis, IA (USA). 22 April 2021.
+
+<!-- -->
+
+-   **S.A.E. Livestream.** Thornblower at Netty McNetface. Columbus, OH
+    (USA). 06 April 2021.
+
+<!-- -->
+
+-   **“Into The Multiverse”.** Thornblower at The Wexner Center for the
+    Arts. 20 October 2020.
+
+<!-- -->
+
+-   **“Virtuoso Chances”.** Andreas Weixler, Se-Lien Chuang, Marc
+    Ainger, Ann Stimmson. Pure Data, joyosc, and a PS4 Controller at
+    ACCAD Motion Lab. Columbus, OH (USA). 23 September 2019.
+
+## Hijos de Distinta Madre
+
+-   **HDDM + ffddcchh (livestream).** Pure Data, joyosc, and a PS4
+    Controller at La Cúpula Galería de Arte. Córdoba (Argentina). 09
+    May 2020.
+
+<!-- -->
+
+-   **HDDM + ffddcchh + Marmotas Dreams.** Pure Data, joyosc, and a PS4
+    Controller at La Cúpula Galería de Arte. 21 December 2019.
+
+<!-- -->
+
+-   **HDDM + ffddcchh.** Pure Data, joyosc, and a PS4 Controller at Casa
+    Mandarina. Córdoba (Argentina). 19 December 2019.
+
+<!-- -->
+
+-   **Mermetom + ffddcchh.** Mermetom (Gustavo Alcaraz & Vero Guevara)
+    and . Pure Data, joyosc, and a PS4 Controller at La Cúpula Galería
+    de Arte. 08 December 2019.
+
+## Live Video and Electronics
+
+-   **“Electroacoustic Improvisations”.** Joan Bages i Rubi, Bernardo
+    Barros, Kyle Motl, and Joan Marti Frasquier,. Midi controller and
+    Laptop at NYU Waverly Labs r.220. New York City, NY (USA). 19
+    June 2017.
+
+<!-- -->
+
+-   **“a.le.a”.** Talea Ensemble. Midi controller and networked Laptops
+    at The Dimenna Center for Classical Music. 07 April 2017.
+
+<!-- -->
+
+-   **“Ciudad Invertida”.** RAGE THORMBONES. Laptop at ShapeShifter Lab.
+    New York City, NY (USA). 22 November 2016.
+
+<!-- -->
+
+-   **“sk”.** TAK Ensemble. Laptop at Waverly Labs, r.220. 29
+    September 2016.
+
+<!-- -->
+
+-   **“Inopera”.** Loadbang Ensemble. Midi controller and Laptop at The
+    Dimenna Center for Classical Music. New York City, NY (USA). 20
+    April 2016.
+
+<!-- -->
+
+-   **“Ciudad Invertida”.** Rocío Elizalde y Manuel Pastrana. Laptop at
+    Bienal 3 en Composición e Investigación Musical. Córdoba
+    (Argentina). 20 August 2015.
+
+<!-- -->
+
+-   **“Venas”.** Samuel Marques (Ensemble Mise-En). Pure Data live
+    processing at German Consulate in New York. New York City, NY (USA).
+    06 February 2015.
+
+<!-- -->
+
+-   **Momenta Quartet Plays NYU Composers.** Momenta Quartet. Laptop at
+    NYU Silver Center r.220. 21 April 2014.
+
+## LEIM Ensemble
+
+-   **Ciclo Experimentalia.** Piano, Analog Synthesizer at Centro
+    Cultural España Córdoba. Córdoba (Argentina). 10 August 2012.
+
+<!-- -->
+
+-   **Summer Concert.** Piano, Analog Synthesizer at Auditorio CePIA. 10
+    November 2011.
+
+<!-- -->
+
+-   **Teatro Acústico.** Piano, Analog Synthesizer at Facultad de Artes,
+    UNC. Córdoba (Argentina). 02 October 2011.
+
+<!-- -->
+
+-   **Ciclo Contengo-Arte.** Piano, Analog Synthesizer at Instituto
+    Italiano de Cultura. 14 September 2011.
+
+<!-- -->
+
+-   **Micro-Simposio de Análisis Musical.** Piano, Analog Synthesizer at
+    Facultad de Artes, UNC. Córdoba (Argentina). 12 September 2011.
+
+<!-- -->
+
+-   **Winter Concert.** Piano, Analog Synthesizer at Auditorio CePIA. 23
+    August 2011.
+
+<!-- -->
+
+-   **Ciclo Experimentalia.** Piano, Analog Synthesizer at Centro
+    Cultural España Córdoba. Córdoba (Argentina). 20 June 2011.
+
+<!-- -->
+
+-   **Tsonami.** Piano, Analog Synthesizer at Centro Cultural Recoleta.
+    Buenos Aires (Argentina). 10 May 2011.
+
+<!-- -->
+
+-   **“Nosocomio”.** Piano, Analog Synthesizer at Centro Cultural España
+    Córdoba. Córdoba (Argentina). 12 December 2010.
+
+<!-- -->
+
+-   **Summer Concert.** Piano, Analog Synthesizer at Auditorio CePIA. 14
+    November 2010.
+
+<!-- -->
+
+-   **1st International Biennial of Music Composition and Education.**
+    Piano, Analog Synthesizer at Auditorio CePIA. Córdoba (Argentina).
+    14 September 2010.
+
+## Proyecto \[Red\] Ensemble
+
+-   **“Canon”.** Midi controller and Laptop at Centro Cultural Graciela
+    Carena. New York City, NY (USA). 06 August 2016.
+
+<!-- -->
+
+-   **Concert.** Piano at Auditorio CePIA. Córdoba (Argentina). 12
+    November 2012.
+
+<!-- -->
+
+-   **Aniversario de la Facultad de Artes.** Piano, Trumpet, Midi
+    Controller at Auditorio CePIA. 01 November 2012.
+
+<!-- -->
+
+-   **John Cage Festival.** Piano at Auditorio CePIA. Córdoba
+    (Argentina). 05 September 2012.
+
+<!-- -->
+
+-   **Bienal 2 de Composición e Investigación Musical.** Piano, Trumpet,
+    Midi Controller at Auditorio CePIA. 23 August 2012.
+
+<!-- -->
+
+-   **Alquimistas.** Piano at Aula Magna FCEFyN. Córdoba (Argentina). 29
+    June 2012.
+
+<!-- -->
+
+-   **Concierto Final de Tesis.** Piano at Auditorio CePIA. 12
+    June 2012.
+
+<!-- -->
+
+-   **Ciencias Humanas.** Electric Guitar at Escuela Monserrat. Córdoba
+    (Argentina). 20 October 2011.
+
+<!-- -->
+
+-   **Micro-Simposio de Análisis Musical.** Piano at Aula Magna de la
+    Facultad de Artes. 10 September 2011.
+
+<!-- -->
+
+-   **Arte Forum 2: Hommage to Oscar Bazán.** Piano at Auditorio CePIA.
+    Córdoba (Argentina). 18 August 2011.
+
+<!-- -->
+
+-   **Winter Concert.** Electric Guitar, Piano at Auditorio CePIA. 10
+    July 2011.
+
+<!-- -->
+
+-   **Summer Concert.** Conductor at Auditorio CePIA. Córdoba
+    (Argentina). 20 November 2010.
+
+<!-- -->
+
+-   **La Máquina de Tiempo.** Trumpet at Centro Cultural España Córdoba.
+    02 July 2010.
+
+## Other Roles
+
+-   **“Untitled 2”.** Ensemble Mise-En. Fixed Media at Mise-en
+    Festival 2021. New York (USA). 05 October 2021.
+
+<!-- -->
+
+-   **“The Woods”.** Kyoung and Scott Swearingen. The Woods Audio at
+    Currents New Media Festival 2021. Santa Fe (USA). 18 June 2021.
+
+<!-- -->
+
+-   **“Climate Gathering”.** Norah Zuniga Shaw. Max/MSP and Ipad at
+    Movement Lab at Barnard College. New York City, NY (USA). 15
+    January 2020.
+
+<!-- -->
+
+-   **Guest Pianist.** LAMOI. Piano at Paseo del Buen Pastor. Córdoba
+    (Argentina). 10 March 2012.
+
+<!-- -->
+
+-   **Inserto Beat.** Luisina Couto, Pablo Behm. Guitar at Cineclub
+    Municipal Hugo del Carril. 18 September 2010.
+
+<!-- -->
+
+-   **Guest Pianist.** Orquesta Sinfónica de Río Ceballos. Piano at
+    Teatro Municipal. Río Ceballos, CBA (Argentina). 12 March 2010.
 
 # Other Skills
 
 ------------------------------------------------------------------------
 
--   **Spanish** (Native) **English** (Advanced) **French**
-    (Intermediate) **German** ( Beginner, A2 Level. Currently Studying.)
+## Code
 
--   **Pure Data** (Expert) **Python** (Advanced: Numpy, Scipy,
-    tensorflow, librosa) **JavaScript** (Advanced: Web Audio API,
-    Node.js) **C** (Pure Data Externals) **C++** (GEM and Max MSP
-    Externals) **Bash** (Server-side scripting) **HTML** (Web Publishing
-    with CSS) **Latex** (Text Publishing) **Git** (Version management,
-    software release)
+-   **Pure Data** : Expert
 
--   **Max/MSP.** **Csound.** **Jacktrip.** **Audacity.** **REAPER.**
-    **Ableton Live.** **Adobe Creative Suite.**
+-   **Python** : Advanced: Numpy, Scipy, tensorflow, librosa
+
+-   **JavaScript** : Advanced: Web Audio API, Node.js
+
+-   **C** : Pure Data Externals
+
+-   **C++** : GEM and Max MSP Externals
+
+-   **Bash** : Server-side scripting
+
+-   **HTML** : Web Publishing with CSS
+
+-   LaTeX : Text Publishing
+
+-   **Git** : Version management, software release
+
+## Software
+
+-   **Max/MSP**
+
+-   **Csound**
+
+-   **Jacktrip**
+
+-   **Audacity**
+
+-   **REAPER**
+
+-   **Ableton Live**
+
+-   **Adobe Creative Suite**
+
+## Languages
+
+-   **Spanish** : Mother Tounge
+
+-   **English** : Advanced
+
+-   **French** : Intermediate
+
+-   **German** : Beginner, A2 Level. Currently Studying.

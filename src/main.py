@@ -12,7 +12,7 @@ NARRATIVE      = False # disable narrative by default (compact==true)
 ENCODING       ='utf8' # encoding for writing/readiing json files
 DATE           = datetime.date.today().ctime().split(' ')
 YEAR           = DATE[-1]
-
+AUTHOR         = "Federico Cámara H"
 def phone_format(p):
     return f"+ {p[0]} ({p[1]}) {p[2]}-{p[3]}"
 
@@ -33,7 +33,21 @@ def comment(doc, s=''):
     doc.append(NoEscape("% "+s+" \n"))
     doc.append(NoEscape("%" + "-"*78 + "\n"))
 
-def writeEntry(doc, item, e):
+def writeEntry(doc, item, curr, prev):
+
+    e = curr
+    if prev:
+        # this selects which repeated keys to be removed:
+        if curr['employer'] == prev['employer']:
+            e['employer'] = ''
+        if curr['location'] == prev['location']:
+            e['location'] = ''
+            
+        # # this removes all repeated. comment-out if wanted
+        # for (c_k, c_v), (p_k, p_v) in zip(curr.items(),prev.items()):
+        #     if c_v == p_v:
+        #         e[c_k] = ''
+    
     dates=e['dates']
     title=e['title']
     employer=e['employer']
@@ -41,7 +55,8 @@ def writeEntry(doc, item, e):
     location=e['location']
     year=e['year']
     subheader=e['subheader']
-    
+    narrative=e['narrative']
+        
     if title and title[-1] == ".":
         title[:-2]
     if employer and  employer[-1] == ".":
@@ -79,9 +94,9 @@ def writeEntry(doc, item, e):
         if 'ongoing' not in dates and dates != year:
             doc.append(dates+".")
 
-        if NARRATIVE and i['narrative']:
+        if NARRATIVE and narrative:
             with doc.create(Quote()):
-                doc.append(i['narrative'])
+                doc.append(narrative)
 
 
 def make_personal(doc, image=False):
@@ -95,7 +110,7 @@ def make_personal(doc, image=False):
         with doc.create(MiniPage(width=r"0.45\textwidth")):
             # with doc.create(Figure()) as profil:
             doc.append(Command("centering"))
-            doc.append(Command("includegraphics", profilpic,"width=200pt"))
+            doc.append(Command("includegraphics", PROFIL,"width=200pt"))
 
     with doc.create(MiniPage(width=r"0.6\textwidth")):
         with doc.create(Section(data['personal']['name'])):
@@ -124,7 +139,7 @@ def make_personal(doc, image=False):
     doc.append(Command("hfill"))
     # doc.append(LineBreak())
  
-def make_doc(file, geometry_options = {"margin": "1.15cm"}):
+def make_doc(file, title, author, geometry_options = {"margin": "1.15cm"}):
     """ Create and return a formatted Pylatex Document with my data
     
     Parameters
@@ -142,7 +157,7 @@ def make_doc(file, geometry_options = {"margin": "1.15cm"}):
     doc = Document(
         default_filepath = file.as_posix(),
         documentclass    = 'article',
-        document_options = ['12pt'],
+        document_options = ['12pt', 'titlepage'],
         fontenc          = "T1",
         inputenc         = ENCODING,
         font_size        = "normalsize",
@@ -162,7 +177,10 @@ def make_doc(file, geometry_options = {"margin": "1.15cm"}):
     doc.preamble.append(Command("usepackage","titlesec"))
     doc.preamble.append(NoEscape("\\titlespacing\\section{0pt}{12pt}{12pt}"))
     doc.preamble.append(NoEscape("\\titlespacing\\subsection{0pt}{12pt}{12pt}"))
-
+    doc.preamble.append(Command("title", title.title()))
+    doc.preamble.append(Command("author", author.title()))
+    doc.preamble.append(Command("date", NoEscape(r'\today')))
+    doc.append(NoEscape(r'\maketitle'))
     return doc
 
 if __name__ == '__main__':
@@ -209,6 +227,7 @@ if __name__ == '__main__':
     
     DATADIR = Path(args.datadir)
 
+    PROFIL  = Path("img") / "profil.jpg"
     sheeti  = DATADIR / "sheet_id.pkl"
     sheetj  = DATADIR / "sheet_data.json"
     sheetp  = DATADIR / "sheet_data_parsed.json"
@@ -217,7 +236,6 @@ if __name__ == '__main__':
     texfile = DATADIR / "temp"
     reffile = DATADIR / "references"
     datafile= DATADIR / "data.json"
-    profilpic=DATADIR / "profil.jpg"
     logoimg = DATADIR / "logo.jpg"
     sigimg  = DATADIR / "signature.jpg"
 
@@ -254,7 +272,7 @@ if __name__ == '__main__':
     ###
     ### CV
     ###
-    
+
     if args.cv:
 
         with sheetp.open(mode='r', encoding=ENCODING) as f:
@@ -263,20 +281,27 @@ if __name__ == '__main__':
         with sheett.open(mode='r', encoding=ENCODING) as f:
             cv_tree = json.load(f)
 
-        doc = make_doc(texfile)
-        profilpic = profilpic.resolve().as_posix()
+        doc = make_doc(texfile, 
+            title="Curriculum Vitae", 
+            author=data['personal']['name']
+        )
+        PROFIL = PROFIL.resolve().as_posix()
         doc.append(Command("raggedright"))
 
         make_personal(doc, image=True)
-        
+
         for section in cv_tree['sections']:
             sheet=section['sheet']
+            doc.append(VerticalSpace(NoEscape("-6pt")))
             with doc.create(Section(sheet_data[sheet]['section'])):
+                doc.append(VerticalSpace(NoEscape("-8pt")))
                 doc.append(Command('hrule'))
                 for v in section['order']:
                     v = v.replace(" ","_")
                     subheader=sheet_data[sheet]['subcategories'][v]["subsection"]
+                    doc.append(VerticalSpace(NoEscape("-2pt")))
                     doc.append(Command("subsection",subheader))
+                    doc.append(VerticalSpace(NoEscape("-8pt")))
                     # doc.append(NoEscape("\\noindent\\rule{\\textwidth}{0.4pt}"))
                     # doc.append(Command('hrule'))
                     p_y=''
@@ -315,13 +340,15 @@ if __name__ == '__main__':
                             "title":i['title'],
                             "employer":i['employer'],
                             "description":i['description'],
+                            "narrative":i['narrative'],
                             "location":i['location'],
                             "subheader":subheader,
                             "year":i['year']
                         }
                         if abs(int(c_y)-int(YEAR)) <= MAX_YEAR_LIMIT:
-                            writeEntry(doc, dateit, c_entry)
-                        
+                            writeEntry(doc, dateit, c_entry, p_entry)
+                        doc.append(VerticalSpace(NoEscape("-2pt")))
+                        p_entry = c_entry
                         # this accounts for title repetition
                         # c_title = i['title'].replace(" ","")
                         
@@ -352,32 +379,70 @@ if __name__ == '__main__':
                         #         merge=1
                         #         continue
                 if "education" in sheet:
-                    doc.append(Command("pagebreak"))
                     with doc.create(Section("Research Interests")):
                         doc.append(Command('hrule'))
                         with doc.create(Quote()):
                             doc.append(". ".join(data["research"]))
+                    doc.append(Command("pagebreak"))
                 # end subsection loop
+                doc.append(VerticalSpace(NoEscape("-2pt")))
             # end subsections
         # end sections
         with doc.create(Section("Other Skills")):
             doc.append(Command('hrule'))
-            with doc.create(Itemize(options=[ 
-                    'align=parleft',
-                    'leftmargin=2.25cm',
-                    'labelwidth=2cm' ]
-                    )):
-                doc.append(NoEscape("\\item[Languages]"))
-                for i in data["languages"]:
-                    doc.append(Command("textbf", i['item']))
-                    doc.append(" ("+i['description']+") ")
-                doc.append(NoEscape("\\item[Code]"))
-                for i in data["code"]:
-                    doc.append(Command("textbf", i['item']))
-                    doc.append(" ("+i['description']+") ")
-                doc.append(NoEscape("\\item[Software]"))
-                for i in data["software"]:
-                    doc.append(Command("textbf", i+"."))
+
+            for k,v in data['skills'].items():
+                with doc.create(MiniPage(
+                        width=NoEscape(r"0.33\textwidth"),
+                        pos='t', align='l'
+                    )) as mp:
+                    with mp.create(Subsection(k.title())):
+                        # mp.append(VerticalSpace(NoEscape("-2pt")))
+                        with mp.create(Itemize()):
+                            for i in v:
+                                mp.append(Command('item'))
+                                if 'Latex' in i['item']:
+                                    mp.append(Command("LaTeX"))
+                                else:
+                                    mp.append(bold(i['item']))
+                                if i['description']:
+                                    mp.append(": "+i['description'])
+                                # mp.append(VerticalSpace(NoEscape("-2pt")))
+                            mp.append(LineBreak())
+
+
+            # with doc.create(Subsection("Languages")):
+            #     with doc.create(Itemize(options=[ 
+            #             'align=parleft',
+            #             'leftmargin=2.25cm',
+            #             'labelwidth=2cm' ]
+            #             )):
+            #         for i in data["languages"]:
+            #             doc.append(Command("item"))
+            #             doc.append(Command("textbf", i['item']))
+            #             doc.append(" ("+i['description']+") ")
+
+            # with doc.create(Subsection("Code")):
+            #     with doc.create(Itemize(options=[ 
+            #             'align=parleft',
+            #             'leftmargin=2.25cm',
+            #             'labelwidth=2cm' ]
+            #             )):
+            #         for i in data["code"]:
+            #             doc.append(Command("item"))
+            #             doc.append(Command("textbf", i['item']))
+            #             doc.append(" ("+i['description']+") ")
+
+            # with doc.create(Subsection("Software")):
+            #     with doc.create(Itemize(options=[ 
+            #             'align=parleft',
+            #             'leftmargin=2.25cm',
+            #             'labelwidth=2cm' ]
+            #             )):
+
+            #         for i in data["software"]:
+            #             doc.append(Command("item"))
+            #             doc.append(Command("textbf", i+"."))
 
         print("Compiling CV PDF file")
         doc.generate_pdf(clean_tex=True)
@@ -393,7 +458,10 @@ if __name__ == '__main__':
         with sheetr.open(mode='r', encoding=ENCODING) as f:
             ref_data = json.load(f)
 
-        doc = make_doc(reffile)
+        doc = make_doc(reffile, 
+            title="References", 
+            author=data['personal']['name']
+        )
 
         make_personal(doc,image=False)
 
@@ -411,25 +479,25 @@ if __name__ == '__main__':
                     doc.append(Command('hrule'))
                     doc.append(bold("Affiliation: "))
                     doc.append(i['affiliation'])
-                    doc.append(NoEscape("\\vspace{-10pt}"))
+                    doc.append(VerticalSpace(NoEscape("-10pt")))
                     doc.append(splitter)
                     doc.append(bold("Department: "))
                     doc.append(i['department'])
-                    doc.append(NoEscape("\\vspace{-10pt}"))
+                    doc.append(VerticalSpace(NoEscape("-10pt")))
                     doc.append(splitter)
                     doc.append(bold("Title: "))
                     doc.append(i['title'])
-                    doc.append(NoEscape("\\vspace{-10pt}"))
+                    doc.append(VerticalSpace(NoEscape("-10pt")))
                     doc.append(splitter)
                     doc.append(bold("Phone: "))
                     doc.append(phone)
-                    doc.append(NoEscape("\\vspace{-10pt}"))
+                    doc.append(VerticalSpace(NoEscape("-10pt")))
                     doc.append(splitter)
                     doc.append(bold("Address: "))
                     doc.append(address)
-                    doc.append(NoEscape("\\vspace{-10pt}"))
+                    doc.append(VerticalSpace(NoEscape("-10pt")))
                     doc.append(splitter)
-                    doc.append(NoEscape("\\vspace{10pt}"))
+                    doc.append(VerticalSpace(NoEscape("10pt")))
 
         print("Compiling References PDF file")
         doc.generate_pdf(clean_tex=True)
@@ -464,7 +532,11 @@ if __name__ == '__main__':
             "includeheadfoot": True
         }
 
-        doc = make_doc(coverfile, geometry_options=geometry_options)
+        doc = make_doc(coverfile, 
+            title="Cover Letter", 
+            author=data['personal']['name'],
+            geometry_options=geometry_options
+        )
 
         first_page = PageStyle("firstpage")
 

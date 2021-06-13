@@ -5,12 +5,15 @@ TMP=temp
 TEXDIR=tex
 OUT=output
 TITLE="Federico Cámara Halac"
-PDCFLAGS=-s --metadata title=$(TITLE) --css style/style.css
+PDCFLAGS=-s --metadata title=$(TITLE) --css style/style.css --resource-path=$(DATADIR)
 MAIN=main.py
 PY=/usr/local/bin/python3
 CC=$(PY) $(SRCDIR)/$(MAIN)
 PDF=$(DATADIR)/$(TMP).pdf
-
+JOIN=/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py
+ref=references.pdf
+doc=Camara_Halac-Application_Materials
+rec=../recommendations
 help:
 	$(CC) -h
 	@echo "See the Makefile for more info"
@@ -22,7 +25,8 @@ all:
 	make update
 	make cv
 	make release
-	make references
+	make references refselect="1 0 2"
+	if [[ "$(call)" ]]; then make cover call=$(call); fi
 
 references:
 	if [[ ! "$(refselect)" ]]; then \
@@ -31,7 +35,7 @@ references:
 		echo $(refselect); \
 		$(CC) --references --datadir=$(DATADIR) --refselect="$(refselect)"; \
 	fi \
-	&& open $(DATADIR)/references.pdf
+	&& open $(DATADIR)/$(ref)
 
 cv:
 	$(CC) --cv 	--datadir=$(DATADIR) && open $(PDF)
@@ -49,6 +53,8 @@ release:
 	cd $(DATADIR); pandoc $(PDCFLAGS) -i $(TMP).tex -f latex -t html -o ../index.html
 	pandoc -i index.html -f html -t gfm -o README.md
 	pandoc -i index.html -f html -t docx -o $(OUT)/cv.docx
+	sed -ie 's|/Users/fd/Documents/cv/img/profil.jpg|img/profil.jpg|g' index.html
+	rm index.htmle 
 
 project:
 	rm $(DATADIR)/project.zip
@@ -70,9 +76,12 @@ push:
 
 cover:
 	if [[ ! "$(call)" ]]; then \
-		echo "USAGE: make cover call='path/to/universityname.py'"; \
+		echo "USAGE: make cover call='UniversityModuleFileName'"; \
 	else \
 		$(CC) --cover=$(call); \
+		cd $(DATADIR); $(JOIN) --output $(doc)-$(call).pdf \
+		$(call).pdf $(TMP).pdf $(ref) $(rec)/*.pdf \
+		&& open $(doc)-$(call).pdf; \
 	fi
 
 .PHONY: cover all new
