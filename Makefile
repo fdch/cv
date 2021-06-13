@@ -26,7 +26,10 @@ all:
 	make cv
 	make release
 	make references refselect="1 0 2"
-	if [[ "$(call)" ]]; then make cover call=$(call); fi
+	if [[ "$(call)" ]]; then \
+		make cover call=$(call); \
+		make combine call=$(call); \
+	fi
 
 references:
 	if [[ ! "$(refselect)" ]]; then \
@@ -79,9 +82,15 @@ cover:
 		echo "USAGE: make cover call='UniversityModuleFileName'"; \
 	else \
 		$(CC) --cover=$(call); \
-		cd $(DATADIR); $(JOIN) --output $(doc)-$(call).pdf \
-		$(call).pdf $(TMP).pdf $(ref) $(rec)/*.pdf \
-		&& open $(doc)-$(call).pdf; \
+		cd $(DATADIR); \
+		pandoc $(PDCFLAGS) -i $(call).tex -f latex -t html -o $(call).html; \
+		pandoc -i $(call).html -f html -t docx -o $(call).docx; \
 	fi
+
+combine:
+	cd $(DATADIR); $(JOIN) --output $(doc)-$(call).pdf \
+	$(call).pdf $(TMP).pdf $(ref) $(rec)/*.pdf \
+	&& open $(doc)-$(call).pdf; \
+
 
 .PHONY: cover all new
