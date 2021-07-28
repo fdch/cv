@@ -50,7 +50,7 @@ parse:
 	$(CC) --parse --datadir=$(DATADIR)
 
 compact:
-	$(CC) --compact --cv --datadir=$(DATADIR)
+	@if [[ ! "$(years)" ]]; then echo "USAGE: make compact years=20"; else $(CC) --compact=$(years) --cv --datadir=$(DATADIR); fi && open $(PDF)
 
 release:
 	cd $(DATADIR); pandoc $(PDCFLAGS) -i $(TMP).tex -f latex -t html -o ../index.html

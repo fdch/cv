@@ -1,10 +1,9 @@
 #!/usr/local/bin/python3
 import json, pickle
 import datetime
-from pylatex import Document, Section, Subsection, Command, Itemize, Figure, MiniPage, LineBreak, VerticalSpace, PageStyle, Head, StandAloneGraphic, LargeText, MediumText, Foot
-from pylatex.section import Paragraph
+from pylatex import Document, Section, Subsection, Command, Itemize, MiniPage, LineBreak, VerticalSpace, PageStyle, Head, StandAloneGraphic, MediumText
 from pylatex.base_classes import Environment
-from pylatex.utils import NoEscape, bold, italic
+from pylatex.utils import NoEscape, bold
 from pathlib import Path
 
 MAX_YEAR_LIMIT = 20     # more recent years (with compact flag)
@@ -12,7 +11,7 @@ NARRATIVE      = False # disable narrative by default (compact==true)
 ENCODING       ='utf8' # encoding for writing/readiing json files
 DATE           = datetime.date.today().ctime().split(' ')
 YEAR           = DATE[-1]
-AUTHOR         = "Federico Cámara H"
+AUTHOR         = "Federico Cámara Halac"
 def phone_format(p):
     return f"+ {p[0]} ({p[1]}) {p[2]}-{p[3]}"
 
@@ -203,8 +202,9 @@ if __name__ == '__main__':
         action="store_true")
 
     parser.add_argument("-c", '--compact',
-        help="Make a compact version of the cv", 
-        action="store_true")
+        help="Make a compact version of the cv by setting max year limit", 
+        type=int,
+        default=MAX_YEAR_LIMIT)
     
     parser.add_argument("-cv", '--cv',
         help="Make the cv file", 
@@ -243,10 +243,8 @@ if __name__ == '__main__':
         data = json.load(f)
 
     if args.compact:
-        # do not print the body (narrative) of each entry
-        body = False
-    else:
-        body = True
+        # reset the max year limit global
+        MAX_YEAR_LIMIT = args.compact
     
     ###
     ### UPDATE
@@ -299,9 +297,6 @@ if __name__ == '__main__':
                 for v in section['order']:
                     v = v.replace(" ","_")
                     subheader=sheet_data[sheet]['subcategories'][v]["subsection"]
-                    doc.append(VerticalSpace(NoEscape("-2pt")))
-                    doc.append(Command("subsection",subheader))
-                    doc.append(VerticalSpace(NoEscape("-8pt")))
                     # doc.append(NoEscape("\\noindent\\rule{\\textwidth}{0.4pt}"))
                     # doc.append(Command('hrule'))
                     p_y=''
@@ -309,7 +304,9 @@ if __name__ == '__main__':
                     monthit=len(sheet_data[sheet]['subcategories'][v]['data'])
                     p_title=''
                     p_entry={}
+                    p_subheader=''
                     merge=0
+                    entryBuffer = []                    
                     for i in sheet_data[sheet]['subcategories'][v]['data']:
 
                         c_y = i['year'].replace(" ","")
@@ -345,39 +342,29 @@ if __name__ == '__main__':
                             "subheader":subheader,
                             "year":i['year']
                         }
-                        if abs(int(c_y)-int(YEAR)) <= MAX_YEAR_LIMIT:
-                            writeEntry(doc, dateit, c_entry, p_entry)
-                        doc.append(VerticalSpace(NoEscape("-2pt")))
                         p_entry = c_entry
-                        # this accounts for title repetition
-                        # c_title = i['title'].replace(" ","")
-                        
-                        # first case (p_entry is empty)
-                        # if not p_entry:
-                        #     p_entry = c_entry
-                        #     writeEntry(doc, dateit, c_entry)
-                        # else:
-                        #     # do titles differ ?
-                        #     if p_title != c_title:
+                        within = abs(int(c_y)-int(YEAR)) <= MAX_YEAR_LIMIT
+                        if within or "education" in sheet:
+                            e = {
+                                "data":[dateit,c_entry,p_entry],
+                            }
+                            if p_subheader is not subheader:
+                                c_subheader = subheader
+                                e.update({"title":c_subheader})
+                            else:
+                                e.update({"title":None})
+                            p_subheader = c_subheader
+                            entryBuffer.append(e)
 
-                        #         if merge:
-                        #             writeEntry(doc, dateit, p_entry)
-                        #             merge=0
-                        #         else:
-                        #             writeEntry(doc, dateit, c_entry)
-                        #             p_entry = c_entry
-
-                        #         # then update title
-                        #         p_title = c_title
-                        #     else:
-                        #         # titles are the same
-                        #         # we found two similar entries,
-                        #         # merge them
-                        #         for k,v in p_entry.items():
-                        #             if p_entry[k] != c_entry[k]:
-                        #                 p_entry[k] += ' and ' + c_entry[k]
-                        #         merge=1
-                        #         continue
+                    for e in entryBuffer:
+                        d = e['data']
+                        if e['title'] is not None:
+                            doc.append(VerticalSpace(NoEscape("-2pt")))
+                            doc.append(Command("subsection",e['title']))
+                            doc.append(VerticalSpace(NoEscape("-8pt")))
+                        writeEntry(doc, d[0], d[1], d[2])
+                        doc.append(VerticalSpace(NoEscape("-2pt")))
+                
                 if "education" in sheet:
                     with doc.create(Section("Research Interests")):
                         doc.append(Command('hrule'))
