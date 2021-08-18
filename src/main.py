@@ -138,7 +138,11 @@ def make_personal(doc, image=False):
     doc.append(Command("hfill"))
     # doc.append(LineBreak())
  
-def make_doc(file, title, author, geometry_options = {"margin": "1.15cm"}):
+def make_doc(file, 
+            title, 
+            author, 
+            geometry_options = {"margin": "1.15cm"}, 
+            options=""):
     """ Create and return a formatted Pylatex Document with my data
     
     Parameters
@@ -156,7 +160,7 @@ def make_doc(file, title, author, geometry_options = {"margin": "1.15cm"}):
     doc = Document(
         default_filepath = file.as_posix(),
         documentclass    = 'article',
-        document_options = ['12pt', 'titlepage'],
+        document_options = ['12pt', 'titlepage' ] + options,
         fontenc          = "T1",
         inputenc         = ENCODING,
         font_size        = "normalsize",
@@ -219,6 +223,10 @@ if __name__ == '__main__':
         help="Make only the references file.", 
         action="store_true")
 
+    parser.add_argument("-T", '--translate',
+        help="Translate the file (applying sheet offset to download.py).", 
+        action="store_true")
+
     parser.add_argument("-p", '--parse',
         help="Parse the local data without fetching it again.", 
         action="store_true")
@@ -228,12 +236,14 @@ if __name__ == '__main__':
     DATADIR = Path(args.datadir)
 
     PROFIL  = Path("img") / "profil.jpg"
-    sheeti  = DATADIR / "sheet_id.pkl"
+    # sheeti  = DATADIR / "sheet_id.pkl"
     sheetj  = DATADIR / "sheet_data.json"
-    sheetp  = DATADIR / "sheet_data_parsed.json"
+    sheetp  = DATADIR / "sheets_english-parsed-test.json"
+    sheetg  = DATADIR / "sheets_german-parsed-test.json"
     sheett  = DATADIR / "cv_tree.json"
+    sheettg = DATADIR / "cv_tree_german.json"
     sheetr  = DATADIR / "references.json"
-    texfile = DATADIR / "temp"
+    texfile = DATADIR / "temp_trans" if args.translate else DATADIR / "temp"
     reffile = DATADIR / "references"
     datafile= DATADIR / "data.json"
     logoimg = DATADIR / "logo.jpg"
@@ -252,11 +262,10 @@ if __name__ == '__main__':
     
     if args.update:
 
-        with sheeti.open(mode='rb') as f:
-            sheet_id = pickle.load(f)        
+        sheet_id = "1vViMWDsMRnbGUgP44XNDlQrLQ3MsdgO9W91mM4MxJtw"
 
         import download
-        download.downloadSheet(sheet_id, sheetj)
+        download.downloadSheet(sheet_id, sheetj, offset=args.translate)
     
     ###
     ### PARSE
@@ -272,17 +281,30 @@ if __name__ == '__main__':
     ###
 
     if args.cv:
+        if args.translate:
+          with sheetg.open(mode='r', encoding=ENCODING) as f:
+              sheet_data = json.load(f)
+          
+          with sheettg.open(mode='r', encoding=ENCODING) as f:
+              cv_tree = json.load(f)
 
-        with sheetp.open(mode='r', encoding=ENCODING) as f:
-            sheet_data = json.load(f)
-        
-        with sheett.open(mode='r', encoding=ENCODING) as f:
-            cv_tree = json.load(f)
+        else:
+          with sheetp.open(mode='r', encoding=ENCODING) as f:
+              sheet_data = json.load(f)
+          
+          with sheett.open(mode='r', encoding=ENCODING) as f:
+              cv_tree = json.load(f)
 
         doc = make_doc(texfile, 
             title="Curriculum Vitae", 
-            author=data['personal']['name']
+            author=data['personal']['name'],
+            options=['ngerman']
         )
+        if args.translate:
+          doc.preamble.append(Command("usepackage", "babel"))
+          doc.preamble.append(Command("usepackage", "csquotes"))
+          doc.preamble.append(Command("MakeOuterQuote", NoEscape("\"")))
+
         PROFIL = PROFIL.resolve().as_posix()
         doc.append(Command("raggedright"))
 
@@ -309,12 +331,12 @@ if __name__ == '__main__':
                     entryBuffer = []                    
                     for i in sheet_data[sheet]['subcategories'][v]['data']:
 
-                        c_y = i['year'].replace(" ","")
+                        c_y = i['year'].replace(" ","").replace(".","")
                         c_m = i['month'].replace(" ","")
                         # this accounts for year/month repetition
                         if p_y != c_y and p_m != c_m:
                             # year and month changed, display full date
-                            dateit=i['year']
+                            dateit=i['year'].replace(".","")
                             if monthit > 1:
                                 dateit+=" | " +i['month'][:3]
 
@@ -323,7 +345,7 @@ if __name__ == '__main__':
                             dateit=i['month']
                         elif p_y != c_y and p_m == c_m:
                             # only year changed, display year only
-                            dateit=i['year']
+                            dateit=i['year'].replace(".","")
                         else:
                             # no change, no date display
                             dateit=''
@@ -340,7 +362,7 @@ if __name__ == '__main__':
                             "narrative":i['narrative'],
                             "location":i['location'],
                             "subheader":subheader,
-                            "year":i['year']
+                            "year":i['year'].replace(".","")
                         }
                         p_entry = c_entry
                         within = abs(int(c_y)-int(YEAR)) <= MAX_YEAR_LIMIT

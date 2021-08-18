@@ -1,0 +1,123 @@
+[
+    {
+        "range": "educationFinal!A1:Z1000",
+        "majorDimension": "ROWS",
+        "values": [
+            [
+                "Timestamp",
+                "Title",
+                "Dates",
+                "Employer",
+                "Location",
+                "Description",
+                "Url",
+                "Year",
+                "Category",
+                "Narrative",
+                "Header",
+                "Month"
+            ],
+            [
+                "5/13/2021 21:13:26",
+                "Music Composition and Theory, New York University",
+                "Sep  2013 - Jun  2019",
+                "Graduate School of Arts and Sciences",
+                "New York, NY (USA)",
+                "Dissertation title: ``Database Music: A History, Technology, and Aesthetics of the Database in Music Composition''. Advisor: Jaime Oliver La Rosa (NYU GSAS). Readers: Elizabeth Hoffman (NYU GSAS), Martin Daughtry (NYU GSAS), William Brent (American University), and Robert Rowe (NYU Steinhardt)",
+                "",
+                "2019",
+                "PhD",
+                "This dissertation outlines a framework to discuss the aesthetic agency of the database in music composition. I place my dissertation in relation to existing scholarship, artists, and developers working in the fields of music composition, computer science, affect, and ontology, with emphasis on the ubiquity of databases and on the need to reflect on their practice, particularly in relation to databasing and music composition. There is a database everywhere, anytime, always already affecting our lives; it is an agent in our aesthetic and political lives just as much as we are agents in its composition and performance. Database music lives in between computers and sound. My argument is that in order to conceptualize the agency of the database in music composition, we need to trace the history of the practice, in both its technical and its artistic use, so as to find nodes of action that have an effect on the resulting aesthetics.",
+                "Education",
+                "June"
+            ],
+            [
+                "5/13/2021 21:27:09",
+                "Music Composition, Universidad Nacional de Córdoba",
+                "Mar  2006 - Jul  2012",
+                "Facultad de Artes",
+                "Córdoba (Argentina)",
+                "Thesis Title: ``A Form of Pleasure: Music as an Experience of Pleasure''. Advisor: José Halac. Readers: Eleazar Garzón, Sergio Poblete, Claudio Bazán, and Pablo de Giusto (Bachelor and Masters equivalence)",
+                "",
+                "2012",
+                "Licenciate",
+                "",
+                "Education",
+                "July"
+            ]
+        ]
+    },
+    {
+        "range": "workFinal!A1:Z1000",
+        "majorDimension": "ROWS",
+        "values": [
+            [
+                "Timestamp",
+                "Title",
+                "Dates",
+                "Employer",
+                "Location",
+                "Description",
+                "Url",
+                "Year",
+                "Category",
+                "Narrative",
+                "Header",
+                "Month"
+            ],
+            [
+                "5/13/2021 20:45:38",
+                "Postdoctoral Scholar in Immersive Audio, The Ohio State University",
+                "2019-2021",
+                "Global Arts and Humanities Discovery Theme, School of Music, Advanced Computing Center for the Arts and Design",
+                "Columbus, OH (USA)",
+                "",
+                "",
+                "2021",
+                "Postdoctorate",
+                "Cámara Halac is a Post-Doctoral Researcher in Immersive Audio in the School of Music as part of the Global Arts and Humanities Discovery Theme initiative at Ohio State University. Since his work involves exploring sound in media, working at the Advanced Computing Center for the Arts and Design allows him the best opportunities to interface with the College of the Arts and Sciences.",
+                "Professional Appointments",
+                "September"
+            ],
+            [
+                "6/13/2021 4:33:31",
+                "Course Assistant, New York University",
+                "2016",
+                "Faculty of Arts and Science",
+                "New York (USA)",
+                "",
+                "",
+                "2016",
+                "Graduate",
+                "",
+                "Professional Appointments"
+            ],
+            [
+                "6/13/2021 4:34:46",
+                "Teaching Assistant, New York University",
+                "2014-2015",
+                "Faculty of Arts and Science",
+                "New York (USA)",
+                "",
+                "",
+                "2015",
+                "Graduate",
+                "",
+                "Professional Appointments"
+            ],
+            [
+                "6/13/2021 4:35:30",
+                "Teaching Assistant, Universidad Nacional de Córdoba",
+                "2007-2010",
+                "Facultad de Artes",
+                "Córdoba (Argentina)",
+                "",
+                "",
+                "2010",
+                "Undergraduate",
+                "",
+                "Professional Appointments"
+            ]
+        ]
+    }
+]
